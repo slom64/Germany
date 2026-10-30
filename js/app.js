@@ -101,6 +101,9 @@ window.App = {
       case 'grammar':
         this.renderGrammarList();
         break;
+      case 'progression':
+        if (window.Progression) window.Progression.initScreen();
+        break;
       case 'random':
         if (window.RandomPicker) window.RandomPicker.initScreen();
         break;
@@ -141,6 +144,7 @@ window.App = {
     const learningCount = stateValues.filter(c => c.state === 'learning').length;
     const learnedCount = stateValues.filter(c => c.state === 'review').length;
     const newCount = vocab.length - stateValues.length;
+    const progressionCount = window.Storage ? window.Storage.getLearnedWordIds().length : 0;
     
     // Level info
     const levelInfo = window.Progress ? window.Progress.getLevel(stats.xp) : { level: 1, title: 'Beginner', titleAr: 'مبتدئ', xpForNext: 100, xpProgress: 0 };
@@ -212,6 +216,12 @@ window.App = {
             <span class="action-icon">💪</span>
             <span class="action-title">Practice</span>
             <span class="action-title-ar">تدريب</span>
+          </button>
+          <button class="action-btn action-progression" onclick="window.location.hash='progression'">
+            <span class="action-icon">🎯</span>
+            <span class="action-title">Progression</span>
+            <span class="action-title-ar">المفردات المتقنة</span>
+            <span class="action-badge">${progressionCount}</span>
           </button>
           <button class="action-btn action-random" onclick="window.location.hash='random'">
             <span class="action-icon">🎲</span>

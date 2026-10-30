@@ -7,7 +7,8 @@ window.RandomPicker = {
   activeDirection: 'de-to-ar', // 'de-to-ar', 'ar-to-de', 'mixed'
   activeMode: 'mcq',          // 'mcq', 'text'
   selectedCategory: 'all',    // 'all' or category ID
-  selectedLevel: 'all',       // 'all', 'A1', 'A2'
+  selectedLevel: 'all',       // 'all', 'A1', 'A2', 'B1', 'B2'
+  onlyLearned: false,         // whether to only pick from user's Progression Learning list
   
   sessionStats: {
     correct: 0,
@@ -42,6 +43,17 @@ window.RandomPicker = {
     this.isAnswered = false;
     let pool = window.Vocabulary || [];
     
+    // Apply Learned Words Filter if enabled
+    if (this.onlyLearned) {
+      const learnedIds = window.Storage ? window.Storage.getLearnedWordIds() : [];
+      if (learnedIds.length === 0) {
+        this.currentWord = null;
+        this.renderEmptyLearnedState();
+        return;
+      }
+      pool = pool.filter(w => learnedIds.includes(w.id));
+    }
+    
     // Apply category filter
     if (this.selectedCategory !== 'all') {
       pool = pool.filter(w => w.category === this.selectedCategory);
@@ -57,10 +69,18 @@ window.RandomPicker = {
     }
     
     if (pool.length === 0) {
-      if (window.UI) {
-        window.UI.showToast('No words found matching filters. / لا توجد كلمات مطابقة للفلاتر.', 'error');
+      if (this.onlyLearned) {
+        if (window.UI) {
+          window.UI.showToast('No learned words match this filter. Showing all learned words. / لا توجد كلمات متقنة مطابقة لهذا الفلتر.', 'warning');
+        }
+        const learnedIds = window.Storage ? window.Storage.getLearnedWordIds() : [];
+        pool = (window.Vocabulary || []).filter(w => learnedIds.includes(w.id));
+      } else {
+        if (window.UI) {
+          window.UI.showToast('No words found matching filters. / لا توجد كلمات مطابقة للفلاتر.', 'error');
+        }
+        pool = window.Vocabulary || [];
       }
-      pool = window.Vocabulary || [];
     }
     
     // Pick random word (different from current if pool > 1)
@@ -97,11 +117,20 @@ window.RandomPicker = {
   prepareMCQOptions() {
     const vocab = window.Vocabulary || [];
     const correct = this.currentWord;
-    let pool = vocab.filter(w => w.id !== correct.id);
+    let basePool = vocab.filter(w => w.id !== correct.id);
+    
+    // If practicing only learned words and user has >= 4 learned words, quiz against learned words
+    if (this.onlyLearned) {
+      const learnedIds = window.Storage ? window.Storage.getLearnedWordIds() : [];
+      const learnedPool = basePool.filter(w => learnedIds.includes(w.id));
+      if (learnedPool.length >= 3) {
+        basePool = learnedPool;
+      }
+    }
     
     // Prefer words in the same category
-    const sameCategory = pool.filter(w => w.category === correct.category);
-    const candidatePool = sameCategory.length >= 3 ? sameCategory : pool;
+    const sameCategory = basePool.filter(w => w.category === correct.category);
+    const candidatePool = sameCategory.length >= 3 ? sameCategory : basePool;
     
     const shuffled = [...candidatePool].sort(() => 0.5 - Math.random());
     const distractors = shuffled.slice(0, 3);
@@ -129,6 +158,7 @@ window.RandomPicker = {
       : 100;
       
     const wordToSpeak = (word.article ? `${word.article} ` : '') + word.german;
+    const learnedCount = window.Storage ? window.Storage.getLearnedWordIds().length : 0;
     
     // Build screen HTML
     container.innerHTML = `
@@ -137,6 +167,19 @@ window.RandomPicker = {
         <!-- Controls & Filter Toolbar -->
         <div class="picker-toolbar">
           
+          <!-- Word Source (All vs Progression Learned) -->
+          <div class="picker-control-group">
+            <span class="control-label">Source / المصدر:</span>
+            <div class="pill-group">
+              <button class="pill-btn ${!this.onlyLearned ? 'active' : ''}" onclick="RandomPicker.setOnlyLearned(false)" title="All words in database / جميع الكلمات">
+                🌐 All (${(window.Vocabulary || []).length})
+              </button>
+              <button class="pill-btn ${this.onlyLearned ? 'active' : ''}" onclick="RandomPicker.setOnlyLearned(true)" title="Only words from Progression Learning / الكلمات المتقنة فقط">
+                🎯 Learned (${learnedCount})
+              </button>
+            </div>
+          </div>
+
           <!-- Direction Selector -->
           <div class="picker-control-group">
             <span class="control-label">Direction / الاتجاه:</span>
@@ -589,6 +632,68 @@ window.RandomPicker = {
   setLevel(lvl) {
     this.selectedLevel = lvl;
     this.pickNextWord();
+  },
+
+  // Set Only Learned toggle
+  setOnlyLearned(bool) {
+    this.onlyLearned = Boolean(bool);
+    this.pickNextWord();
+  },
+
+  // Render empty state when onlyLearned is active but list is empty
+  renderEmptyLearnedState() {
+    const container = document.getElementById('random-content');
+    if (!container) return;
+    
+    const learnedCount = window.Storage ? window.Storage.getLearnedWordIds().length : 0;
+    
+    container.innerHTML = `
+      <div class="random-picker-wrapper animate-fade-in">
+        <!-- Controls & Filter Toolbar -->
+        <div class="picker-toolbar">
+          <div class="picker-control-group">
+            <span class="control-label">Source / المصدر:</span>
+            <div class="pill-group">
+              <button class="pill-btn ${!this.onlyLearned ? 'active' : ''}" onclick="RandomPicker.setOnlyLearned(false)">
+                🌐 All (${(window.Vocabulary || []).length})
+              </button>
+              <button class="pill-btn ${this.onlyLearned ? 'active' : ''}" onclick="RandomPicker.setOnlyLearned(true)">
+                🎯 Learned (${learnedCount})
+              </button>
+            </div>
+          </div>
+          <div class="picker-control-group">
+            <span class="control-label">Direction / الاتجاه:</span>
+            <div class="pill-group">
+              <button class="pill-btn ${this.activeDirection === 'de-to-ar' ? 'active' : ''}" onclick="RandomPicker.setDirection('de-to-ar')">🇩🇪 ➔ 🇸🇦</button>
+              <button class="pill-btn ${this.activeDirection === 'ar-to-de' ? 'active' : ''}" onclick="RandomPicker.setDirection('ar-to-de')">🇸🇦 ➔ 🇩🇪</button>
+              <button class="pill-btn ${this.activeDirection === 'mixed' ? 'active' : ''}" onclick="RandomPicker.setDirection('mixed')">🔀 Mixed</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="picker-empty-state">
+          <div class="empty-icon-lg">🎯</div>
+          <h2>No Words in Progression Learning Yet!</h2>
+          <h3 class="arabic-text" dir="rtl">قائمة "المفردات المتقنة" فارغة حالياً</h3>
+          <p class="empty-desc">
+            You haven't added any words to your <strong>Progression Learning</strong> list yet. 
+            Add the words you've learned to drill and remember them here!
+          </p>
+          <p class="empty-desc arabic-text" dir="rtl">
+            لم تقم بتسجيل أي كلمات متقنة بعد. ادخل إلى صفحة <strong>تعلم وتقدم المفردات</strong> لاختيار الكلمات التي أتقنتها وحفظها لتقوم باختبارها هنا.
+          </p>
+          <div class="empty-actions" style="margin-top: 1.5rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            <button class="btn btn-primary" onclick="window.location.hash='progression'" style="padding: 0.75rem 1.5rem; font-size: 1rem;">
+              🎯 Go to Progression Learning / صفحة المفردات المتقنة
+            </button>
+            <button class="btn btn-secondary" onclick="RandomPicker.setOnlyLearned(false)" style="padding: 0.75rem 1.5rem; font-size: 1rem;">
+              🌐 Practice All Words / تدريب جميع الكلمات
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
   },
 
   // Flexible German string comparator (umlauts & punctuation)

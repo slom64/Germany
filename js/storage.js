@@ -5,7 +5,8 @@ window.Storage = {
     SETTINGS: 'dl_settings',
     HISTORY: 'dl_session_history',
     STATS: 'dl_stats',
-    ACHIEVEMENTS: 'dl_achievements'
+    ACHIEVEMENTS: 'dl_achievements',
+    LEARNED_WORDS: 'dl_learned_words'
   },
 
   DEFAULT_SETTINGS: {
@@ -71,6 +72,77 @@ window.Storage = {
     const states = this.getCardStates();
     states[cardState.wordId] = cardState;
     this._setItem(this.KEYS.CARD_STATES, states);
+  },
+
+  // Progression Learning / Learned Words
+  getLearnedWords() {
+    return this._getItem(this.KEYS.LEARNED_WORDS, {});
+  },
+
+  getLearnedWordIds() {
+    return Object.keys(this.getLearnedWords());
+  },
+
+  isWordLearned(wordId) {
+    if (!wordId) return false;
+    const learned = this.getLearnedWords();
+    return Boolean(learned[wordId]);
+  },
+
+  addLearnedWord(wordId, notes = '') {
+    if (!wordId) return false;
+    const learned = this.getLearnedWords();
+    const isNew = !learned[wordId];
+    learned[wordId] = {
+      id: wordId,
+      learnedAt: learned[wordId]?.learnedAt || new Date().toISOString(),
+      notes: notes || learned[wordId]?.notes || ''
+    };
+    this._setItem(this.KEYS.LEARNED_WORDS, learned);
+    return isNew;
+  },
+
+  removeLearnedWord(wordId) {
+    if (!wordId) return false;
+    const learned = this.getLearnedWords();
+    if (learned[wordId]) {
+      delete learned[wordId];
+      this._setItem(this.KEYS.LEARNED_WORDS, learned);
+      return true;
+    }
+    return false;
+  },
+
+  toggleLearnedWord(wordId, notes = '') {
+    if (!wordId) return false;
+    if (this.isWordLearned(wordId)) {
+      this.removeLearnedWord(wordId);
+      return false;
+    } else {
+      this.addLearnedWord(wordId, notes);
+      return true;
+    }
+  },
+
+  addMultipleLearnedWords(wordIds) {
+    if (!Array.isArray(wordIds)) return 0;
+    const learned = this.getLearnedWords();
+    let addedCount = 0;
+    const now = new Date().toISOString();
+    wordIds.forEach(id => {
+      if (id && !learned[id]) {
+        learned[id] = { id, learnedAt: now, notes: '' };
+        addedCount++;
+      }
+    });
+    if (addedCount > 0) {
+      this._setItem(this.KEYS.LEARNED_WORDS, learned);
+    }
+    return addedCount;
+  },
+
+  clearLearnedWords() {
+    this._setItem(this.KEYS.LEARNED_WORDS, {});
   },
 
   // User settings
@@ -158,7 +230,8 @@ window.Storage = {
       settings: this.getSettings(),
       history: this.getSessionHistory(),
       stats: this.getStats(),
-      achievements: this.getAchievements()
+      achievements: this.getAchievements(),
+      learnedWords: this.getLearnedWords()
     };
     return JSON.stringify(data);
   },
@@ -171,6 +244,7 @@ window.Storage = {
       if (data.history) this._setItem(this.KEYS.HISTORY, data.history);
       if (data.stats) this._setItem(this.KEYS.STATS, data.stats);
       if (data.achievements) this._setItem(this.KEYS.ACHIEVEMENTS, data.achievements);
+      if (data.learnedWords) this._setItem(this.KEYS.LEARNED_WORDS, data.learnedWords);
       return true;
     } catch (e) {
       console.error("Failed to import data", e);
@@ -184,6 +258,7 @@ window.Storage = {
     localStorage.removeItem(this.KEYS.HISTORY);
     localStorage.removeItem(this.KEYS.STATS);
     localStorage.removeItem(this.KEYS.ACHIEVEMENTS);
+    localStorage.removeItem(this.KEYS.LEARNED_WORDS);
   },
   
   resetAll() {
