@@ -3073,5 +3073,165 @@ window.Sentences = [
     "wordIds": [],
     "level": "B2",
     "category": "politics"
+  },
+  {
+    "id": "sent_319",
+    "german": "Ich koche heute Abend eine leckere Gemüsesuppe für die ganze Familie.",
+    "arabic": "سأطبخ مساء اليوم حساء خضار شهياً لجميع أفراد العائلة.",
+    "wordIds": [],
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "id": "sent_320",
+    "german": "Am Wochenende backen wir frischen Apfelkuchen.",
+    "arabic": "في عطلة نهاية الأسبوع نخبز كعكة تفاح طازجة.",
+    "wordIds": [],
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "id": "sent_321",
+    "german": "Er brät das Fleisch in einer großen Pfanne.",
+    "arabic": "إنه يقلي اللحم في مقلاة كبيرة.",
+    "wordIds": [],
+    "level": "A2",
+    "category": "food"
+  },
+  {
+    "id": "sent_322",
+    "german": "Bitte schneiden Sie die Tomaten und Zwiebeln in kleine Stücke.",
+    "arabic": "من فضلك قطّع الطماطم والبصل إلى قطع صغيرة.",
+    "wordIds": [],
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "id": "sent_323",
+    "german": "Das Essen schmeckt wirklich ausgezeichnet!",
+    "arabic": "الطعام لذيذ وذو مذاق رائع حقاً!",
+    "wordIds": [],
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "id": "sent_324",
+    "german": "Ich frühstücke jeden Morgen um sieben Uhr mit Brot und Kaffee.",
+    "arabic": "أتناول الفطور كل صباح في تمام السابعة بالخبز والقهوة.",
+    "wordIds": [],
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "id": "sent_325",
+    "german": "Die neue Küche ist modern und hat einen großen Kühlschrank.",
+    "arabic": "المطبخ الجديد حديث ومجهز بثلاجة كبيرة.",
+    "wordIds": [],
+    "level": "A1",
+    "category": "house"
+  },
+  {
+    "id": "sent_326",
+    "german": "Kannst du bitte die Teller und Gläser auf den Tisch stellen?",
+    "arabic": "هل يمكنك من فضلك وضع الأطباق والأكواب على الطاولة؟",
+    "wordIds": [],
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "id": "sent_327",
+    "german": "Wir müssen am Samstag die ganze Wohnung gründlich aufräumen und putzen.",
+    "arabic": "يتعين علينا يوم السبت ترتيب وتنظيف الشقة بالكامل وبدقة.",
+    "wordIds": [],
+    "level": "A1",
+    "category": "house"
+  },
+  {
+    "id": "sent_328",
+    "german": "Sie zieht ihre warme Jacke an, weil es draußen sehr kalt ist.",
+    "arabic": "إنها ترتدي سترتها الدافئة لأن الجو بارد جداً بالخارج.",
+    "wordIds": [],
+    "level": "A1",
+    "category": "clothing"
+  },
+  {
+    "id": "sent_329",
+    "german": "Ich gehe heute Nachmittag im Supermarkt für die Woche einkaufen.",
+    "arabic": "سأذهب بعد ظهر اليوم للتسوق في السوبرماركت لمستلزمات الأسبوع.",
+    "wordIds": [],
+    "level": "A1",
+    "category": "shopping"
+  },
+  {
+    "id": "sent_330",
+    "german": "Können Sie bitte das Fenster aufmachen? Es ist sehr warm hier.",
+    "arabic": "هل يمكنك من فضلك فتح النافذة؟ الجو دافئ جداً هنا.",
+    "wordIds": [],
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "id": "sent_331",
+    "german": "Der Deutschkurs beginnt morgen früh um neun Uhr.",
+    "arabic": "تبدأ دورة اللغة الألمانية صباح غد في تمام التاسعة.",
+    "wordIds": [],
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "id": "sent_332",
+    "german": "Ich habe überall nach meinem Schlüssel gesucht, aber ihn nicht gefunden.",
+    "arabic": "لقد بحثت في كل مكان عن مفتاحي، لكني لم أجده.",
+    "wordIds": [],
+    "level": "A2",
+    "category": "verbs"
+  },
+  {
+    "id": "sent_333",
+    "german": "Ich rufe dich später an, sobald ich zu Hause ankomme.",
+    "arabic": "سأتصل بك لاحقاً بمجرد وصولي إلى المنزل.",
+    "wordIds": [],
+    "level": "A1",
+    "category": "media"
+  },
+  {
+    "id": "sent_334",
+    "german": "Könnten Sie mir bitte helfen? Ich suche den Bahnhof.",
+    "arabic": "هل بإمكانك مساعدتي من فضلك؟ أنا أبحث عن محطة القطار.",
+    "wordIds": [],
+    "level": "A1",
+    "category": "transport"
+  },
+  {
+    "id": "sent_335",
+    "german": "Wir treffen uns heute um achtzehn Uhr im Café am Marktplatz.",
+    "arabic": "سنلتقي اليوم في تمام الساعة السادسة مساءً في المقهى عند ساحة السوق.",
+    "wordIds": [],
+    "level": "A1",
+    "category": "phrases"
+  },
+  {
+    "id": "sent_336",
+    "german": "Wie viel kostet diese Fahrkarte nach Berlin?",
+    "arabic": "كم تكلف تذكرة السفر هذه إلى برلين؟",
+    "wordIds": [],
+    "level": "A1",
+    "category": "shopping"
+  },
+  {
+    "id": "sent_337",
+    "german": "Mein Smartphone funktioniert einwandfrei und der Akku hält lange.",
+    "arabic": "هاتفي الذكي يعمل بشكل ممتاز وبطاريته تدوم طويلاً.",
+    "wordIds": [],
+    "level": "A2",
+    "category": "technology"
+  },
+  {
+    "id": "sent_338",
+    "german": "Ich lerne fleißig Deutsch, um an einer deutschen Universität zu studieren.",
+    "arabic": "أنا أتعلم الألمانية بجد واجتهاد للدراسة في جامعة ألمانية.",
+    "wordIds": [],
+    "level": "A2",
+    "category": "university"
   }
 ];

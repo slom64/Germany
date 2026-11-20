@@ -2006,6 +2006,65 @@ input:checked + .toggle-slider:before {
     font-size: 1rem;
 }
 
+.restart-session-btn {
+    background-color: var(--bg-card);
+    border: 1px solid rgba(245, 158, 11, 0.45);
+    color: var(--accent-primary);
+    border-radius: 9999px;
+    padding: 0.35rem 0.9rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px var(--shadow-color);
+    transition: all 0.2s ease;
+}
+
+.restart-session-btn:hover {
+    background-color: var(--accent-primary);
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(245, 158, 11, 0.3);
+}
+
+.session-complete-state {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.session-summary-box {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1.5rem auto;
+    padding: 1.25rem;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    max-width: 450px;
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+.summary-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.summary-val {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--text-primary);
+}
+
+.summary-lbl {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 0.2rem;
+}
+
 .picker-card {
     background-color: var(--bg-card);
     border: 2px solid var(--border-color);

@@ -9,6 +9,7 @@ window.RandomPicker = {
   selectedCategory: 'all',    // 'all' or category ID
   selectedLevel: 'all',       // 'all', 'A1', 'A2', 'B1', 'B2'
   onlyLearned: false,         // whether to only pick from user's Progression Learning list
+  sessionWordIds: [],         // Track word IDs seen in the current revision session to prevent repetition
   
   sessionStats: {
     correct: 0,
@@ -38,19 +39,13 @@ window.RandomPicker = {
     this.pickNextWord();
   },
 
-  // Pick next random word according to filters
-  pickNextWord() {
-    this.isAnswered = false;
+  // Get active pool of words matching active category, level, and source filters
+  getActivePool() {
     let pool = window.Vocabulary || [];
     
     // Apply Learned Words Filter if enabled
     if (this.onlyLearned) {
       const learnedIds = window.Storage ? window.Storage.getLearnedWordIds() : [];
-      if (learnedIds.length === 0) {
-        this.currentWord = null;
-        this.renderEmptyLearnedState();
-        return;
-      }
       pool = pool.filter(w => learnedIds.includes(w.id));
     }
     
@@ -68,28 +63,61 @@ window.RandomPicker = {
       }
     }
     
-    if (pool.length === 0) {
+    return pool;
+  },
+
+  // Pick next random word according to filters, preventing repetition in current session
+  pickNextWord() {
+    this.isAnswered = false;
+    
+    // Check if onlyLearned is active but user has 0 learned words
+    if (this.onlyLearned) {
+      const learnedIds = window.Storage ? window.Storage.getLearnedWordIds() : [];
+      if (learnedIds.length === 0) {
+        this.currentWord = null;
+        this.renderEmptyLearnedState();
+        return;
+      }
+    }
+    
+    const fullPool = this.getActivePool();
+    
+    if (fullPool.length === 0) {
       if (this.onlyLearned) {
         if (window.UI) {
           window.UI.showToast('No learned words match this filter. Showing all learned words. / لا توجد كلمات متقنة مطابقة لهذا الفلتر.', 'warning');
         }
-        const learnedIds = window.Storage ? window.Storage.getLearnedWordIds() : [];
-        pool = (window.Vocabulary || []).filter(w => learnedIds.includes(w.id));
+        this.selectedCategory = 'all';
+        this.selectedLevel = 'all';
+        this.sessionWordIds = [];
+        this.pickNextWord();
+        return;
       } else {
         if (window.UI) {
           window.UI.showToast('No words found matching filters. / لا توجد كلمات مطابقة للفلاتر.', 'error');
         }
-        pool = window.Vocabulary || [];
+        this.selectedCategory = 'all';
+        this.selectedLevel = 'all';
+        this.sessionWordIds = [];
+        this.pickNextWord();
+        return;
       }
     }
     
-    // Pick random word (different from current if pool > 1)
-    let nextWord;
-    do {
-      nextWord = pool[Math.floor(Math.random() * pool.length)];
-    } while (pool.length > 1 && this.currentWord && nextWord.id === this.currentWord.id);
+    // Filter out words already reviewed in this session to prevent repetition!
+    const unreviewedPool = fullPool.filter(w => !this.sessionWordIds.includes(w.id));
     
+    // If all words have been reviewed, show session completion screen!
+    if (unreviewedPool.length === 0) {
+      this.currentWord = null;
+      this.renderSessionCompleteState(fullPool.length);
+      return;
+    }
+    
+    // Pick next random word from unreviewed pool
+    const nextWord = unreviewedPool[Math.floor(Math.random() * unreviewedPool.length)];
     this.currentWord = nextWord;
+    this.sessionWordIds.push(nextWord.id);
     
     // Determine direction for this card
     if (this.activeDirection === 'mixed') {
@@ -159,6 +187,7 @@ window.RandomPicker = {
       
     const wordToSpeak = (word.article ? `${word.article} ` : '') + word.german;
     const learnedCount = window.Storage ? window.Storage.getLearnedWordIds().length : 0;
+    const poolSize = this.getActivePool().length;
     
     // Build screen HTML
     container.innerHTML = `
@@ -248,6 +277,13 @@ window.RandomPicker = {
             <span class="score-icon">📊</span>
             <span>Score: <strong>${this.sessionStats.correct}</strong> / ${this.sessionStats.total}</span>
           </div>
+          <div class="score-pill" title="Words reviewed in this session without repetition / كلمات تمت مراجعتها دون تكرار">
+            <span class="score-icon">📖</span>
+            <span>Cards: <strong>${this.sessionWordIds.length}</strong> / ${poolSize}</span>
+          </div>
+          <button class="restart-session-btn" onclick="RandomPicker.restartSession()" title="Restart session to review words again / إعادة بدء الجلسة">
+            🔄 Restart / إعادة بدء
+          </button>
         </div>
 
         <!-- Word Prompt Card -->
@@ -566,6 +602,7 @@ window.RandomPicker = {
       ? Math.round((this.sessionStats.correct / this.sessionStats.total) * 100) 
       : 100;
       
+    const poolSize = this.getActivePool().length;
     const scoreBar = document.querySelector('.picker-score-bar');
     if (scoreBar) {
       scoreBar.innerHTML = `
@@ -581,6 +618,13 @@ window.RandomPicker = {
           <span class="score-icon">📊</span>
           <span>Score: <strong>${this.sessionStats.correct}</strong> / ${this.sessionStats.total}</span>
         </div>
+        <div class="score-pill" title="Words reviewed in this session without repetition / كلمات تمت مراجعتها دون تكرار">
+          <span class="score-icon">📖</span>
+          <span>Cards: <strong>${this.sessionWordIds.length}</strong> / ${poolSize}</span>
+        </div>
+        <button class="restart-session-btn" onclick="RandomPicker.restartSession()" title="Restart session to review words again / إعادة بدء الجلسة">
+          🔄 Restart / إعادة بدء
+        </button>
       `;
     }
   },
@@ -625,19 +669,124 @@ window.RandomPicker = {
   // Set Category
   setCategory(catId) {
     this.selectedCategory = catId;
+    this.sessionWordIds = [];
     this.pickNextWord();
   },
 
   // Set Level
   setLevel(lvl) {
     this.selectedLevel = lvl;
+    this.sessionWordIds = [];
     this.pickNextWord();
   },
 
   // Set Only Learned toggle
   setOnlyLearned(bool) {
     this.onlyLearned = Boolean(bool);
+    this.sessionWordIds = [];
     this.pickNextWord();
+  },
+
+  // Restart current revision session, allowing previously seen words to appear again
+  restartSession(showToast = true) {
+    this.sessionWordIds = [];
+    this.sessionStats = {
+      correct: 0,
+      wrong: 0,
+      streak: 0,
+      bestStreak: 0,
+      total: 0
+    };
+    if (showToast && window.UI) {
+      window.UI.showToast('Session restarted! All words can appear again. / تم إعادة بدء الجلسة!', 'info');
+    }
+    this.pickNextWord();
+  },
+
+  // Render session complete celebration when all words have been reviewed
+  renderSessionCompleteState(totalReviewed) {
+    const container = document.getElementById('random-content');
+    if (!container) return;
+    
+    const accuracy = this.sessionStats.total > 0 
+      ? Math.round((this.sessionStats.correct / this.sessionStats.total) * 100) 
+      : 100;
+    const learnedCount = window.Storage ? window.Storage.getLearnedWordIds().length : 0;
+    const categories = window.Categories || [];
+    
+    container.innerHTML = `
+      <div class="random-picker-wrapper animate-fade-in">
+        <!-- Controls & Filter Toolbar -->
+        <div class="picker-toolbar">
+          <div class="picker-control-group">
+            <span class="control-label">Source / المصدر:</span>
+            <div class="pill-group">
+              <button class="pill-btn ${!this.onlyLearned ? 'active' : ''}" onclick="RandomPicker.setOnlyLearned(false)">
+                🌐 All (${(window.Vocabulary || []).length})
+              </button>
+              <button class="pill-btn ${this.onlyLearned ? 'active' : ''}" onclick="RandomPicker.setOnlyLearned(true)">
+                🎯 Learned (${learnedCount})
+              </button>
+            </div>
+          </div>
+          <div class="picker-control-group">
+            <span class="control-label">Category / الفئة:</span>
+            <select class="picker-select" onchange="RandomPicker.setCategory(this.value)">
+              <option value="all" ${this.selectedCategory === 'all' ? 'selected' : ''}>All Categories</option>
+              ${categories.map(c => `
+                <option value="${c.id}" ${this.selectedCategory === c.id ? 'selected' : ''}>
+                  ${c.icon} ${c.name}
+                </option>
+              `).join('')}
+            </select>
+          </div>
+          <div class="picker-control-group">
+            <span class="control-label">Level / المستوى:</span>
+            <select class="picker-select" onchange="RandomPicker.setLevel(this.value)">
+              <option value="all" ${this.selectedLevel === 'all' ? 'selected' : ''}>All Levels</option>
+              <option value="B2" ${this.selectedLevel === 'B2' ? 'selected' : ''}>⭐ B2</option>
+              <option value="B1" ${this.selectedLevel === 'B1' ? 'selected' : ''}>🔷 B1</option>
+              <option value="A1" ${this.selectedLevel === 'A1' ? 'selected' : ''}>🟢 A1-A2</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="picker-empty-state session-complete-state">
+          <div class="empty-icon-lg">🎉</div>
+          <h2>Session Completed! / اكتملت الجلسة بنجاح!</h2>
+          <p class="empty-desc" style="font-size: 1.1rem; color: var(--text-primary); font-weight: 600;">
+            You have reviewed all <strong>${totalReviewed}</strong> words in this selection without repetition!
+          </p>
+          <p class="empty-desc arabic-text" dir="rtl" style="font-size: 1.05rem;">
+            أحسنت! لقد أتممت مراجعة جميع الكلمات (${totalReviewed} كلمة) في هذا القسم دون أي تكرار.
+          </p>
+
+          <div class="session-summary-box">
+            <div class="summary-stat">
+              <span class="summary-val">🎯 ${accuracy}%</span>
+              <span class="summary-lbl">Accuracy / الدقة</span>
+            </div>
+            <div class="summary-stat">
+              <span class="summary-val">✅ ${this.sessionStats.correct} / ${this.sessionStats.total}</span>
+              <span class="summary-lbl">Score / النتيجة</span>
+            </div>
+            <div class="summary-stat">
+              <span class="summary-val">🔥 ${this.sessionStats.bestStreak}</span>
+              <span class="summary-lbl">Best Streak / أطول سلسلة</span>
+            </div>
+          </div>
+
+          <div class="empty-actions" style="margin-top: 1.5rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            <button class="btn btn-primary" onclick="RandomPicker.restartSession()" style="padding: 0.85rem 1.8rem; font-size: 1.05rem;">
+              🔄 Restart Session / إعادة بدء الجلسة
+            </button>
+            <button class="btn btn-secondary" onclick="RandomPicker.setCategory('all'); RandomPicker.setLevel('all');" style="padding: 0.85rem 1.8rem; font-size: 1.05rem;">
+              🌐 Practice All Words / تدريب جميع الكلمات
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
   },
 
   // Render empty state when onlyLearned is active but list is empty

@@ -7,7 +7,7 @@ window.Categories = [
     "description": "Basic greetings, introductions and courtesy phrases",
     "descriptionAr": "التحيات والتعارف وعبارات اللباقة اليومية",
     "difficulty": 1,
-    "wordCount": 30,
+    "wordCount": 33,
     "level": "A1"
   },
   {
@@ -19,6 +19,17 @@ window.Categories = [
     "descriptionAr": "الأرقام من 0 إلى 1000 والأرقام الترتيبية",
     "difficulty": 1,
     "wordCount": 34,
+    "level": "A1"
+  },
+  {
+    "id": "pronouns",
+    "name": "Pronomen & Fragewörter",
+    "nameAr": "الضمائر وأدوات الاستفهام",
+    "icon": "👤",
+    "description": "Personal pronouns in all cases (mir/dir/mich), question words, and possessives",
+    "descriptionAr": "ضمائر الفاعل والمفعول والمجرور وأدوات الاستفهام والملكية",
+    "difficulty": 1,
+    "wordCount": 35,
     "level": "A1"
   },
   {
@@ -40,7 +51,7 @@ window.Categories = [
     "description": "Common foods, dining, groceries and drinks",
     "descriptionAr": "الأطعمة والمشروبات والتسوق الغذائي",
     "difficulty": 1,
-    "wordCount": 40,
+    "wordCount": 76,
     "level": "A1"
   },
   {
@@ -84,7 +95,7 @@ window.Categories = [
     "description": "Clothes, shoes and fashion accessories",
     "descriptionAr": "الملابس والأحذية والإكسسوارات",
     "difficulty": 2,
-    "wordCount": 20,
+    "wordCount": 23,
     "level": "A1-A2"
   },
   {
@@ -95,7 +106,7 @@ window.Categories = [
     "description": "Rooms, furniture, household appliances and renting",
     "descriptionAr": "الغرف والأثاث والأجهزة المنزلية والسكن",
     "difficulty": 2,
-    "wordCount": 30,
+    "wordCount": 47,
     "level": "A1-A2"
   },
   {
@@ -106,7 +117,7 @@ window.Categories = [
     "description": "Vehicles, tickets, airport and public transport",
     "descriptionAr": "وسائل النقل والمواصلات العامة وتذاكر السفر",
     "difficulty": 2,
-    "wordCount": 20,
+    "wordCount": 30,
     "level": "A1-A2"
   },
   {
@@ -117,7 +128,7 @@ window.Categories = [
     "description": "Days, months, seasons, frequency and time telling",
     "descriptionAr": "الأيام والأشهر وفصول السنة والتعابير الزمنية",
     "difficulty": 2,
-    "wordCount": 30,
+    "wordCount": 44,
     "level": "A1-A2"
   },
   {
@@ -128,7 +139,7 @@ window.Categories = [
     "description": "Common daily action and state verbs",
     "descriptionAr": "أفعال الحركة والحياة اليومية الأساسية",
     "difficulty": 2,
-    "wordCount": 98,
+    "wordCount": 134,
     "level": "A1-A2"
   },
   {
@@ -139,7 +150,7 @@ window.Categories = [
     "description": "Essential descriptive words and opposites",
     "descriptionAr": "الصفات الوصفية والمتضادات الشائعة",
     "difficulty": 2,
-    "wordCount": 110,
+    "wordCount": 121,
     "level": "A1-A2"
   },
   {
@@ -150,7 +161,7 @@ window.Categories = [
     "description": "Studies, exams, lectures and campus life",
     "descriptionAr": "الدراسة الجامعية والامتحانات والمحاضرات",
     "difficulty": 3,
-    "wordCount": 20,
+    "wordCount": 23,
     "level": "A2-B1"
   },
   {
@@ -161,7 +172,7 @@ window.Categories = [
     "description": "Professions, workplace, applications and contracts",
     "descriptionAr": "المهن وبيئة العمل وعقود التوظيف",
     "difficulty": 3,
-    "wordCount": 35,
+    "wordCount": 36,
     "level": "A2-B1"
   },
   {
@@ -172,7 +183,7 @@ window.Categories = [
     "description": "Shopping, payment methods, prices and banking",
     "descriptionAr": "التسوق والشراء والأسعار والخدمات المصرفية",
     "difficulty": 2,
-    "wordCount": 20,
+    "wordCount": 25,
     "level": "A1-A2"
   },
   {
@@ -183,7 +194,7 @@ window.Categories = [
     "description": "Weather phenomena and temperatures",
     "descriptionAr": "الظواهر الجوية ودرجات الحرارة",
     "difficulty": 1,
-    "wordCount": 15,
+    "wordCount": 16,
     "level": "A1"
   },
   {
@@ -194,7 +205,7 @@ window.Categories = [
     "description": "Emotions, psychological states and personality traits",
     "descriptionAr": "المشاعر والانفعالات وسمات الشخصية",
     "difficulty": 2,
-    "wordCount": 20,
+    "wordCount": 24,
     "level": "A2-B1"
   },
   {
@@ -205,7 +216,7 @@ window.Categories = [
     "description": "Idiomatic spoken phrases and conversation starters",
     "descriptionAr": "تعبيرات المحادثة والعبارات الشائعة",
     "difficulty": 2,
-    "wordCount": 8,
+    "wordCount": 26,
     "level": "A2-B1"
   },
   {
@@ -216,7 +227,7 @@ window.Categories = [
     "description": "Government, democracy, elections, laws and civic rights",
     "descriptionAr": "الدولة والديمقراطية والقوانين والمواطنة والانتخابات",
     "difficulty": 3,
-    "wordCount": 67,
+    "wordCount": 68,
     "level": "B1-B2"
   },
   {
@@ -227,7 +238,7 @@ window.Categories = [
     "description": "Climate change, renewable energy, pollution and ecology",
     "descriptionAr": "تغير المناخ والطاقة المتجددة والتلوث وحماية البيئة",
     "difficulty": 3,
-    "wordCount": 41,
+    "wordCount": 42,
     "level": "B1-B2"
   },
   {
@@ -238,7 +249,7 @@ window.Categories = [
     "description": "Artificial intelligence, internet, software and future tech",
     "descriptionAr": "الذكاء الاصطناعي والتطور الرقمي والأمن السيبراني",
     "difficulty": 3,
-    "wordCount": 40,
+    "wordCount": 42,
     "level": "B1-B2"
   },
   {
@@ -260,7 +271,7 @@ window.Categories = [
     "description": "Journalism, social media, public opinion and fake news",
     "descriptionAr": "الصحافة ووسائل التواصل والرأي العام ومصداقية الأخبار",
     "difficulty": 3,
-    "wordCount": 45,
+    "wordCount": 50,
     "level": "B1-B2"
   },
   {
@@ -282,7 +293,7 @@ window.Categories = [
     "description": "Scientific methods, research papers, hypotheses and data",
     "descriptionAr": "المناهج العلمية والأبحاث والفرضيات وتحليل البيانات",
     "difficulty": 3,
-    "wordCount": 70,
+    "wordCount": 72,
     "level": "B2"
   },
   {
@@ -304,7 +315,7 @@ window.Categories = [
     "description": "Subordinating, coordinating and two-part linking words",
     "descriptionAr": "أدوات الربط الثنائية والفرعية وتنظيم الحجج والأفكار",
     "difficulty": 3,
-    "wordCount": 40,
+    "wordCount": 68,
     "level": "B1-B2"
   }
 ];

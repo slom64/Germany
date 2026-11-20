@@ -17213,5 +17213,4350 @@ window.Vocabulary = [
       "B2",
       "abstract"
     ]
+  },
+  {
+    "id": "word_1092",
+    "german": "kochen",
+    "article": null,
+    "plural": null,
+    "arabic": "يطبخ / يطهو / يغلي",
+    "type": "verb",
+    "category": "food",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "koche",
+      "du": "kochst",
+      "er": "kocht",
+      "wir": "kochen",
+      "ihr": "kocht",
+      "sie": "kochen"
+    },
+    "tags": [
+      "cooking",
+      "kitchen",
+      "food",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1093",
+    "german": "backen",
+    "article": null,
+    "plural": null,
+    "arabic": "يخبز",
+    "type": "verb",
+    "category": "food",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "backe",
+      "du": "bäckst",
+      "er": "bäckt",
+      "wir": "backen",
+      "ihr": "backt",
+      "sie": "backen"
+    },
+    "tags": [
+      "cooking",
+      "baking",
+      "food"
+    ]
+  },
+  {
+    "id": "word_1094",
+    "german": "braten",
+    "article": null,
+    "plural": null,
+    "arabic": "يقلي / يشوي في المقلاة",
+    "type": "verb",
+    "category": "food",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "brate",
+      "du": "brätst",
+      "er": "brät",
+      "wir": "braten",
+      "ihr": "bratet",
+      "sie": "braten"
+    },
+    "tags": [
+      "cooking",
+      "food"
+    ]
+  },
+  {
+    "id": "word_1095",
+    "german": "schneiden",
+    "article": null,
+    "plural": null,
+    "arabic": "يقطع / يقص",
+    "type": "verb",
+    "category": "food",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "schneide",
+      "du": "schneidest",
+      "er": "schneidet",
+      "wir": "schneiden",
+      "ihr": "schneidet",
+      "sie": "schneiden"
+    },
+    "tags": [
+      "cooking",
+      "kitchen",
+      "action"
+    ]
+  },
+  {
+    "id": "word_1096",
+    "german": "schälen",
+    "article": null,
+    "plural": null,
+    "arabic": "يقشر (الخضار أو الفواكه)",
+    "type": "verb",
+    "category": "food",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "schäle",
+      "du": "schälst",
+      "er": "schält",
+      "wir": "schälen",
+      "ihr": "schält",
+      "sie": "schälen"
+    },
+    "tags": [
+      "cooking",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "word_1097",
+    "german": "rühren",
+    "article": null,
+    "plural": null,
+    "arabic": "يحرك / يقلب الطعام",
+    "type": "verb",
+    "category": "food",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "rühre",
+      "du": "rührst",
+      "er": "rührt",
+      "wir": "rühren",
+      "ihr": "rührt",
+      "sie": "rühren"
+    },
+    "tags": [
+      "cooking",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "word_1098",
+    "german": "probieren",
+    "article": null,
+    "plural": null,
+    "arabic": "يتذوق / يجرب",
+    "type": "verb",
+    "category": "food",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "probiere",
+      "du": "probierst",
+      "er": "probiert",
+      "wir": "probieren",
+      "ihr": "probiert",
+      "sie": "probieren"
+    },
+    "tags": [
+      "food",
+      "taste"
+    ]
+  },
+  {
+    "id": "word_1099",
+    "german": "schmecken",
+    "article": null,
+    "plural": null,
+    "arabic": "يتذوق / له مذاق طيب",
+    "type": "verb",
+    "category": "food",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "schmecke",
+      "du": "schmeckst",
+      "er": "schmeckt",
+      "wir": "schmecken",
+      "ihr": "schmeckt",
+      "sie": "schmecken"
+    },
+    "tags": [
+      "food",
+      "taste"
+    ]
+  },
+  {
+    "id": "word_1100",
+    "german": "würzen",
+    "article": null,
+    "plural": null,
+    "arabic": "يتبل / يضع البهارات",
+    "type": "verb",
+    "category": "food",
+    "gender": null,
+    "level": "B1",
+    "conjugation": {
+      "ich": "würze",
+      "du": "würzt",
+      "er": "würzt",
+      "wir": "würzen",
+      "ihr": "würzt",
+      "sie": "würzen"
+    },
+    "tags": [
+      "cooking",
+      "spices"
+    ]
+  },
+  {
+    "id": "word_1101",
+    "german": "zubereiten",
+    "article": null,
+    "plural": null,
+    "arabic": "يجهز / يُعد وجبة",
+    "type": "verb",
+    "category": "food",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "bereite zu",
+      "du": "bereitest zu",
+      "er": "bereitet zu",
+      "wir": "bereiten zu",
+      "ihr": "bereitet zu",
+      "sie": "bereiten zu"
+    },
+    "tags": [
+      "cooking",
+      "separable"
+    ]
+  },
+  {
+    "id": "word_1102",
+    "german": "frühstücken",
+    "article": null,
+    "plural": null,
+    "arabic": "يتناول وجبة الفطور",
+    "type": "verb",
+    "category": "food",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "frühstücke",
+      "du": "frühstückst",
+      "er": "frühstückt",
+      "wir": "frühstücken",
+      "ihr": "frühstückt",
+      "sie": "frühstücken"
+    },
+    "tags": [
+      "food",
+      "daily_routine"
+    ]
+  },
+  {
+    "id": "word_1103",
+    "german": "Koch",
+    "article": "der",
+    "plural": "Köche",
+    "arabic": "طاهٍ / طباخ",
+    "type": "noun",
+    "category": "food",
+    "gender": "masculine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "kitchen",
+      "profession"
+    ]
+  },
+  {
+    "id": "word_1104",
+    "german": "Köchin",
+    "article": "die",
+    "plural": "Köchinnen",
+    "arabic": "طاهية / طباخة",
+    "type": "noun",
+    "category": "food",
+    "gender": "feminine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "kitchen",
+      "profession"
+    ]
+  },
+  {
+    "id": "word_1105",
+    "german": "Topf",
+    "article": "der",
+    "plural": "Töpfe",
+    "arabic": "قدر / حلة طبخ",
+    "type": "noun",
+    "category": "food",
+    "gender": "masculine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "kitchen",
+      "utensil"
+    ]
+  },
+  {
+    "id": "word_1106",
+    "german": "Pfanne",
+    "article": "die",
+    "plural": "Pfannen",
+    "arabic": "مقلاة / طاسة",
+    "type": "noun",
+    "category": "food",
+    "gender": "feminine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "kitchen",
+      "utensil"
+    ]
+  },
+  {
+    "id": "word_1107",
+    "german": "Backofen",
+    "article": "der",
+    "plural": "Backöfen",
+    "arabic": "فرن الخَبز",
+    "type": "noun",
+    "category": "house",
+    "gender": "masculine",
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "kitchen",
+      "appliance"
+    ]
+  },
+  {
+    "id": "word_1108",
+    "german": "Messer",
+    "article": "das",
+    "plural": "Messer",
+    "arabic": "سكين",
+    "type": "noun",
+    "category": "food",
+    "gender": "neuter",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "kitchen",
+      "cutlery"
+    ]
+  },
+  {
+    "id": "word_1109",
+    "german": "Gabel",
+    "article": "die",
+    "plural": "Gabeln",
+    "arabic": "شوكة",
+    "type": "noun",
+    "category": "food",
+    "gender": "feminine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "kitchen",
+      "cutlery"
+    ]
+  },
+  {
+    "id": "word_1110",
+    "german": "Löffel",
+    "article": "der",
+    "plural": "Löffel",
+    "arabic": "ملعقة",
+    "type": "noun",
+    "category": "food",
+    "gender": "masculine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "kitchen",
+      "cutlery"
+    ]
+  },
+  {
+    "id": "word_1111",
+    "german": "Teller",
+    "article": "der",
+    "plural": "Teller",
+    "arabic": "صحن / طبق",
+    "type": "noun",
+    "category": "food",
+    "gender": "masculine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "kitchen",
+      "tableware"
+    ]
+  },
+  {
+    "id": "word_1112",
+    "german": "Tasse",
+    "article": "die",
+    "plural": "Tassen",
+    "arabic": "فنجان / كوب قهوة",
+    "type": "noun",
+    "category": "food",
+    "gender": "feminine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "kitchen",
+      "tableware"
+    ]
+  },
+  {
+    "id": "word_1113",
+    "german": "Glas",
+    "article": "das",
+    "plural": "Gläser",
+    "arabic": "كأس زجاجي / كوب ماء",
+    "type": "noun",
+    "category": "food",
+    "gender": "neuter",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "kitchen",
+      "tableware"
+    ]
+  },
+  {
+    "id": "word_1114",
+    "german": "Schüssel",
+    "article": "die",
+    "plural": "Schüsseln",
+    "arabic": "وعاء / سلطانية / زبدية",
+    "type": "noun",
+    "category": "food",
+    "gender": "feminine",
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "kitchen",
+      "tableware"
+    ]
+  },
+  {
+    "id": "word_1115",
+    "german": "Zutat",
+    "article": "die",
+    "plural": "Zutaten",
+    "arabic": "مُكوّن / مقدار في الوصفة",
+    "type": "noun",
+    "category": "food",
+    "gender": "feminine",
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "cooking",
+      "ingredients"
+    ]
+  },
+  {
+    "id": "word_1116",
+    "german": "Besteck",
+    "article": "das",
+    "plural": "Bestecke",
+    "arabic": "أدوات المائدة (الشوكة والسكين والملعقة)",
+    "type": "noun",
+    "category": "food",
+    "gender": "neuter",
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "kitchen",
+      "dining"
+    ]
+  },
+  {
+    "id": "word_1117",
+    "german": "Geschirr",
+    "article": "das",
+    "plural": "Geschirre",
+    "arabic": "أواني وأطباق الطعام",
+    "type": "noun",
+    "category": "house",
+    "gender": "neuter",
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "kitchen",
+      "household"
+    ]
+  },
+  {
+    "id": "word_1118",
+    "german": "Spülmaschine",
+    "article": "die",
+    "plural": "Spülmaschinen",
+    "arabic": "غسالة الأطباق / الصحون",
+    "type": "noun",
+    "category": "house",
+    "gender": "feminine",
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "kitchen",
+      "appliance"
+    ]
+  },
+  {
+    "id": "word_1119",
+    "german": "Mehl",
+    "article": "das",
+    "plural": "Mehle",
+    "arabic": "دقيق / طحين",
+    "type": "noun",
+    "category": "food",
+    "gender": "neuter",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "food",
+      "baking"
+    ]
+  },
+  {
+    "id": "word_1120",
+    "german": "Nudeln",
+    "article": "die",
+    "plural": "Nudeln",
+    "arabic": "معكرونة / باستا",
+    "type": "noun",
+    "category": "food",
+    "gender": "feminine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "food",
+      "staple"
+    ]
+  },
+  {
+    "id": "word_1121",
+    "german": "Mahlzeit",
+    "article": "die",
+    "plural": "Mahlzeiten",
+    "arabic": "وجبة طعام (وتحية وقت الغداء)",
+    "type": "noun",
+    "category": "food",
+    "gender": "feminine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "food",
+      "dining"
+    ]
+  },
+  {
+    "id": "word_1122",
+    "german": "Frühstück",
+    "article": "das",
+    "plural": "Frühstücke",
+    "arabic": "وجبة الإفطار",
+    "type": "noun",
+    "category": "food",
+    "gender": "neuter",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "food",
+      "meals"
+    ]
+  },
+  {
+    "id": "word_1123",
+    "german": "Mittagessen",
+    "article": "das",
+    "plural": "Mittagessen",
+    "arabic": "وجبة الغداء",
+    "type": "noun",
+    "category": "food",
+    "gender": "neuter",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "food",
+      "meals"
+    ]
+  },
+  {
+    "id": "word_1124",
+    "german": "Abendessen",
+    "article": "das",
+    "plural": "Abendessen",
+    "arabic": "وجبة العشاء",
+    "type": "noun",
+    "category": "food",
+    "gender": "neuter",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "food",
+      "meals"
+    ]
+  },
+  {
+    "id": "word_1125",
+    "german": "putzen",
+    "article": null,
+    "plural": null,
+    "arabic": "ينظف / يفرشي الأسنان",
+    "type": "verb",
+    "category": "house",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "putze",
+      "du": "putzt",
+      "er": "putzt",
+      "wir": "putzen",
+      "ihr": "putzt",
+      "sie": "putzen"
+    },
+    "tags": [
+      "cleaning",
+      "daily_routine"
+    ]
+  },
+  {
+    "id": "word_1126",
+    "german": "waschen",
+    "article": null,
+    "plural": null,
+    "arabic": "يغسل (الملابس أو اليدين)",
+    "type": "verb",
+    "category": "house",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "wasche",
+      "du": "wäschst",
+      "er": "wäscht",
+      "wir": "waschen",
+      "ihr": "wascht",
+      "sie": "waschen"
+    },
+    "tags": [
+      "cleaning",
+      "hygiene"
+    ]
+  },
+  {
+    "id": "word_1127",
+    "german": "duschen",
+    "article": null,
+    "plural": null,
+    "arabic": "يستحم (تحت الدش)",
+    "type": "verb",
+    "category": "house",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "dusche",
+      "du": "duschst",
+      "er": "duscht",
+      "wir": "duschen",
+      "ihr": "duscht",
+      "sie": "duschen"
+    },
+    "tags": [
+      "hygiene",
+      "daily_routine"
+    ]
+  },
+  {
+    "id": "word_1128",
+    "german": "baden",
+    "article": null,
+    "plural": null,
+    "arabic": "يستحم في حوض الاستحمام (البانيو)",
+    "type": "verb",
+    "category": "house",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "bade",
+      "du": "badest",
+      "er": "badet",
+      "wir": "baden",
+      "ihr": "badet",
+      "sie": "baden"
+    },
+    "tags": [
+      "hygiene",
+      "relax"
+    ]
+  },
+  {
+    "id": "word_1129",
+    "german": "aufräumen",
+    "article": null,
+    "plural": null,
+    "arabic": "يرتب / ينظم المكان",
+    "type": "verb",
+    "category": "house",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "räume auf",
+      "du": "räumst auf",
+      "er": "räumt auf",
+      "wir": "räumen auf",
+      "ihr": "räumt auf",
+      "sie": "räumen auf"
+    },
+    "tags": [
+      "separable",
+      "cleaning"
+    ]
+  },
+  {
+    "id": "word_1130",
+    "german": "anziehen",
+    "article": null,
+    "plural": null,
+    "arabic": "يرتدي ملابس",
+    "type": "verb",
+    "category": "clothing",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "ziehe an",
+      "du": "ziehst an",
+      "er": "zieht an",
+      "wir": "ziehen an",
+      "ihr": "zieht an",
+      "sie": "ziehen an"
+    },
+    "tags": [
+      "clothing",
+      "separable"
+    ]
+  },
+  {
+    "id": "word_1131",
+    "german": "ausziehen",
+    "article": null,
+    "plural": null,
+    "arabic": "يخلع ملابس / يخلي السكن",
+    "type": "verb",
+    "category": "clothing",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "ziehe aus",
+      "du": "ziehst aus",
+      "er": "zieht aus",
+      "wir": "ziehen aus",
+      "ihr": "zieht aus",
+      "sie": "ziehen aus"
+    },
+    "tags": [
+      "clothing",
+      "separable"
+    ]
+  },
+  {
+    "id": "word_1132",
+    "german": "umziehen",
+    "article": null,
+    "plural": null,
+    "arabic": "يغير ملابسه / ينتقل لمنزل جديد",
+    "type": "verb",
+    "category": "house",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "ziehe um",
+      "du": "ziehst um",
+      "er": "zieht um",
+      "wir": "ziehen um",
+      "ihr": "zieht um",
+      "sie": "ziehen um"
+    },
+    "tags": [
+      "house",
+      "separable"
+    ]
+  },
+  {
+    "id": "word_1133",
+    "german": "einkaufen",
+    "article": null,
+    "plural": null,
+    "arabic": "يتسوق / يشتري أغراضاً",
+    "type": "verb",
+    "category": "shopping",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "kaufe ein",
+      "du": "kaufst ein",
+      "er": "kauft ein",
+      "wir": "kaufen ein",
+      "ihr": "kauft ein",
+      "sie": "kaufen ein"
+    },
+    "tags": [
+      "shopping",
+      "separable"
+    ]
+  },
+  {
+    "id": "word_1134",
+    "german": "öffnen",
+    "article": null,
+    "plural": null,
+    "arabic": "يفتح (رسمي)",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "öffne",
+      "du": "öffnest",
+      "er": "öffnet",
+      "wir": "öffnen",
+      "ihr": "öffnet",
+      "sie": "öffnen"
+    },
+    "tags": [
+      "action",
+      "common"
+    ]
+  },
+  {
+    "id": "word_1135",
+    "german": "schließen",
+    "article": null,
+    "plural": null,
+    "arabic": "يغلق / يقفل",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "schließe",
+      "du": "schließt",
+      "er": "schließt",
+      "wir": "schließen",
+      "ihr": "schließt",
+      "sie": "schließen"
+    },
+    "tags": [
+      "action",
+      "common"
+    ]
+  },
+  {
+    "id": "word_1136",
+    "german": "aufmachen",
+    "article": null,
+    "plural": null,
+    "arabic": "يفتح (نافذة / باب / كتاب)",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "mache auf",
+      "du": "machst auf",
+      "er": "macht auf",
+      "wir": "machen auf",
+      "ihr": "macht auf",
+      "sie": "machen auf"
+    },
+    "tags": [
+      "separable",
+      "daily"
+    ]
+  },
+  {
+    "id": "word_1137",
+    "german": "zumachen",
+    "article": null,
+    "plural": null,
+    "arabic": "يغلق (نافذة / باب / كتاب)",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "mache zu",
+      "du": "machst zu",
+      "er": "macht zu",
+      "wir": "machen zu",
+      "ihr": "macht zu",
+      "sie": "machen zu"
+    },
+    "tags": [
+      "separable",
+      "daily"
+    ]
+  },
+  {
+    "id": "word_1138",
+    "german": "anmachen",
+    "article": null,
+    "plural": null,
+    "arabic": "يشغل (نور / جهاز كهربائي)",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "mache an",
+      "du": "machst an",
+      "er": "macht an",
+      "wir": "machen an",
+      "ihr": "macht an",
+      "sie": "machen an"
+    },
+    "tags": [
+      "separable",
+      "technology"
+    ]
+  },
+  {
+    "id": "word_1139",
+    "german": "ausmachen",
+    "article": null,
+    "plural": null,
+    "arabic": "يطفئ (نور / جهاز كهربائي)",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "mache aus",
+      "du": "machst aus",
+      "er": "macht aus",
+      "wir": "machen aus",
+      "ihr": "macht aus",
+      "sie": "machen aus"
+    },
+    "tags": [
+      "separable",
+      "technology"
+    ]
+  },
+  {
+    "id": "word_1140",
+    "german": "beginnen",
+    "article": null,
+    "plural": null,
+    "arabic": "يبدأ",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "beginne",
+      "du": "beginnst",
+      "er": "beginnt",
+      "wir": "beginnen",
+      "ihr": "beginnt",
+      "sie": "beginnen"
+    },
+    "tags": [
+      "time",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1141",
+    "german": "enden",
+    "article": null,
+    "plural": null,
+    "arabic": "ينتهي",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "ende",
+      "du": "endest",
+      "er": "endet",
+      "wir": "enden",
+      "ihr": "endet",
+      "sie": "enden"
+    },
+    "tags": [
+      "time",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1142",
+    "german": "verlieren",
+    "article": null,
+    "plural": null,
+    "arabic": "يفقد / يخسر",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "verliere",
+      "du": "verlierst",
+      "er": "verliert",
+      "wir": "verlieren",
+      "ihr": "verliert",
+      "sie": "verlieren"
+    },
+    "tags": [
+      "action",
+      "outcome"
+    ]
+  },
+  {
+    "id": "word_1143",
+    "german": "gewinnen",
+    "article": null,
+    "plural": null,
+    "arabic": "يفوز / يربح",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "gewinne",
+      "du": "gewinnst",
+      "er": "gewinnt",
+      "wir": "gewinnen",
+      "ihr": "gewinnt",
+      "sie": "gewinnen"
+    },
+    "tags": [
+      "sports",
+      "success"
+    ]
+  },
+  {
+    "id": "word_1144",
+    "german": "vergessen",
+    "article": null,
+    "plural": null,
+    "arabic": "ينسى",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "vergesse",
+      "du": "vergisst",
+      "er": "vergisst",
+      "wir": "vergessen",
+      "ihr": "vergesst",
+      "sie": "vergessen"
+    },
+    "tags": [
+      "mind",
+      "memory"
+    ]
+  },
+  {
+    "id": "word_1145",
+    "german": "erinnern",
+    "article": null,
+    "plural": null,
+    "arabic": "يتذكر / يذكّر",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "erinnere",
+      "du": "erinnerst",
+      "er": "erinnert",
+      "wir": "erinnern",
+      "ihr": "erinnert",
+      "sie": "erinnern"
+    },
+    "tags": [
+      "mind",
+      "memory"
+    ]
+  },
+  {
+    "id": "word_1146",
+    "german": "treffen",
+    "article": null,
+    "plural": null,
+    "arabic": "يلتقي / يقابل شخصاً",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "treffe",
+      "du": "triffst",
+      "er": "trifft",
+      "wir": "treffen",
+      "ihr": "trefft",
+      "sie": "treffen"
+    },
+    "tags": [
+      "social",
+      "meeting"
+    ]
+  },
+  {
+    "id": "word_1147",
+    "german": "besuchen",
+    "article": null,
+    "plural": null,
+    "arabic": "يزور (شخصاً أو مكاناً)",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "besuche",
+      "du": "besuchst",
+      "er": "besucht",
+      "wir": "besuchen",
+      "ihr": "besucht",
+      "sie": "besuchen"
+    },
+    "tags": [
+      "social",
+      "travel"
+    ]
+  },
+  {
+    "id": "word_1148",
+    "german": "mitbringen",
+    "article": null,
+    "plural": null,
+    "arabic": "يحضر معه",
+    "type": "verb",
+    "category": "phrases",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "bringe mit",
+      "du": "bringst mit",
+      "er": "bringt mit",
+      "wir": "bringen mit",
+      "ihr": "bringt mit",
+      "sie": "bringen mit"
+    },
+    "tags": [
+      "separable",
+      "social"
+    ]
+  },
+  {
+    "id": "word_1149",
+    "german": "abholen",
+    "article": null,
+    "plural": null,
+    "arabic": "يستقبل / يصطحب شخصاً (من المطار أو المحطة)",
+    "type": "verb",
+    "category": "transport",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "hole ab",
+      "du": "holst ab",
+      "er": "holt ab",
+      "wir": "holen ab",
+      "ihr": "holt ab",
+      "sie": "holen ab"
+    },
+    "tags": [
+      "separable",
+      "transport"
+    ]
+  },
+  {
+    "id": "word_1150",
+    "german": "anrufen",
+    "article": null,
+    "plural": null,
+    "arabic": "يتصل هاتفياً",
+    "type": "verb",
+    "category": "media",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "rufe an",
+      "du": "rufst an",
+      "er": "ruft an",
+      "wir": "rufen an",
+      "ihr": "ruft an",
+      "sie": "rufen an"
+    },
+    "tags": [
+      "phone",
+      "separable"
+    ]
+  },
+  {
+    "id": "word_1151",
+    "german": "telefonieren",
+    "article": null,
+    "plural": null,
+    "arabic": "يتحدث عبر الهاتف",
+    "type": "verb",
+    "category": "media",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "telefoniere",
+      "du": "telefonierst",
+      "er": "telefoniert",
+      "wir": "telefonieren",
+      "ihr": "telefoniert",
+      "sie": "telefonieren"
+    },
+    "tags": [
+      "phone",
+      "communication"
+    ]
+  },
+  {
+    "id": "word_1152",
+    "german": "benutzen",
+    "article": null,
+    "plural": null,
+    "arabic": "يستخدم / يستعمل",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "benutze",
+      "du": "benutzt",
+      "er": "benutzt",
+      "wir": "benutzen",
+      "ihr": "benutzt",
+      "sie": "benutzen"
+    },
+    "tags": [
+      "use",
+      "tools"
+    ]
+  },
+  {
+    "id": "word_1153",
+    "german": "zeigen",
+    "article": null,
+    "plural": null,
+    "arabic": "يُري / يوضح / يعرض",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "zeige",
+      "du": "zeigst",
+      "er": "zeigt",
+      "wir": "zeigen",
+      "ihr": "zeigt",
+      "sie": "zeigen"
+    },
+    "tags": [
+      "visual",
+      "action"
+    ]
+  },
+  {
+    "id": "word_1154",
+    "german": "erzählen",
+    "article": null,
+    "plural": null,
+    "arabic": "يحكي / يروي قصة",
+    "type": "verb",
+    "category": "media",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "erzähle",
+      "du": "erzählst",
+      "er": "erzählt",
+      "wir": "erzählen",
+      "ihr": "erzählt",
+      "sie": "erzählen"
+    },
+    "tags": [
+      "story",
+      "speech"
+    ]
+  },
+  {
+    "id": "word_1155",
+    "german": "beschreiben",
+    "article": null,
+    "plural": null,
+    "arabic": "يصف / يعطي وصفاً",
+    "type": "verb",
+    "category": "academic",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "beschreibe",
+      "du": "beschreibst",
+      "er": "beschreibt",
+      "wir": "beschreiben",
+      "ihr": "beschreibt",
+      "sie": "beschreiben"
+    },
+    "tags": [
+      "academic",
+      "language"
+    ]
+  },
+  {
+    "id": "word_1156",
+    "german": "vergleichen",
+    "article": null,
+    "plural": null,
+    "arabic": "يقارن بين أمرين",
+    "type": "verb",
+    "category": "academic",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "vergleiche",
+      "du": "vergleichst",
+      "er": "vergleicht",
+      "wir": "vergleichen",
+      "ihr": "vergleicht",
+      "sie": "vergleichen"
+    },
+    "tags": [
+      "logic",
+      "comparison"
+    ]
+  },
+  {
+    "id": "word_1157",
+    "german": "wählen",
+    "article": null,
+    "plural": null,
+    "arabic": "يختار / ينتخب",
+    "type": "verb",
+    "category": "politics",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "wähle",
+      "du": "wählst",
+      "er": "wählt",
+      "wir": "wählen",
+      "ihr": "wählt",
+      "sie": "wählen"
+    },
+    "tags": [
+      "choice",
+      "election"
+    ]
+  },
+  {
+    "id": "word_1158",
+    "german": "meinen",
+    "article": null,
+    "plural": null,
+    "arabic": "يقصد / يعني / يرى رأياً",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "meine",
+      "du": "meinst",
+      "er": "meint",
+      "wir": "meinen",
+      "ihr": "meint",
+      "sie": "meinen"
+    },
+    "tags": [
+      "opinion",
+      "meaning"
+    ]
+  },
+  {
+    "id": "word_1159",
+    "german": "studieren",
+    "article": null,
+    "plural": null,
+    "arabic": "يدرس في الجامعة",
+    "type": "verb",
+    "category": "university",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "studiere",
+      "du": "studierst",
+      "er": "studiert",
+      "wir": "studieren",
+      "ihr": "studiert",
+      "sie": "studieren"
+    },
+    "tags": [
+      "education",
+      "university"
+    ]
+  },
+  {
+    "id": "word_1160",
+    "german": "legen",
+    "article": null,
+    "plural": null,
+    "arabic": "يضع أفقياً / يسطح",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "lege",
+      "du": "legst",
+      "er": "legt",
+      "wir": "legen",
+      "ihr": "legt",
+      "sie": "legen"
+    },
+    "tags": [
+      "position",
+      "akkusativ"
+    ]
+  },
+  {
+    "id": "word_1161",
+    "german": "stellen",
+    "article": null,
+    "plural": null,
+    "arabic": "يضع رأسياً / يوقف",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "stelle",
+      "du": "stellst",
+      "er": "stellt",
+      "wir": "stellen",
+      "ihr": "stellt",
+      "sie": "stellen"
+    },
+    "tags": [
+      "position",
+      "akkusativ"
+    ]
+  },
+  {
+    "id": "word_1162",
+    "german": "setzen",
+    "article": null,
+    "plural": null,
+    "arabic": "يُجلس / يضع جالساً",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "setze",
+      "du": "setzt",
+      "er": "setzt",
+      "wir": "setzen",
+      "ihr": "setzt",
+      "sie": "setzen"
+    },
+    "tags": [
+      "position",
+      "reflexive"
+    ]
+  },
+  {
+    "id": "word_1163",
+    "german": "hängen",
+    "article": null,
+    "plural": null,
+    "arabic": "يعلّق / يكون معلقاً",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "hänge",
+      "du": "hängst",
+      "er": "hängt",
+      "wir": "hängen",
+      "ihr": "hängt",
+      "sie": "hängen"
+    },
+    "tags": [
+      "position"
+    ]
+  },
+  {
+    "id": "word_1164",
+    "german": "reisen",
+    "article": null,
+    "plural": null,
+    "arabic": "يسافر / يرتحل",
+    "type": "verb",
+    "category": "transport",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "reise",
+      "du": "reist",
+      "er": "reist",
+      "wir": "reisen",
+      "ihr": "reist",
+      "sie": "reisen"
+    },
+    "tags": [
+      "travel",
+      "movement"
+    ]
+  },
+  {
+    "id": "word_1165",
+    "german": "laufen",
+    "article": null,
+    "plural": null,
+    "arabic": "يمشي / يركض",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "laufe",
+      "du": "läufst",
+      "er": "läuft",
+      "wir": "laufen",
+      "ihr": "lauft",
+      "sie": "laufen"
+    },
+    "tags": [
+      "movement",
+      "irregular"
+    ]
+  },
+  {
+    "id": "word_1166",
+    "german": "rennen",
+    "article": null,
+    "plural": null,
+    "arabic": "يجري بسرعة فائقة",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "renne",
+      "du": "rennst",
+      "er": "rennt",
+      "wir": "rennen",
+      "ihr": "rennt",
+      "sie": "rennen"
+    },
+    "tags": [
+      "speed",
+      "running"
+    ]
+  },
+  {
+    "id": "word_1167",
+    "german": "schwimmen",
+    "article": null,
+    "plural": null,
+    "arabic": "يسبح / يعوم",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "schwimme",
+      "du": "schwimmst",
+      "er": "schwimmt",
+      "wir": "schwimmen",
+      "ihr": "schwimmt",
+      "sie": "schwimmen"
+    },
+    "tags": [
+      "sports",
+      "water"
+    ]
+  },
+  {
+    "id": "word_1168",
+    "german": "spazieren",
+    "article": null,
+    "plural": null,
+    "arabic": "يتنزه / يمشي للتسلية",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "spaziere",
+      "du": "spazierst",
+      "er": "spaziert",
+      "wir": "spazieren",
+      "ihr": "spaziert",
+      "sie": "spazieren"
+    },
+    "tags": [
+      "leisure",
+      "walk"
+    ]
+  },
+  {
+    "id": "word_1169",
+    "german": "wandern",
+    "article": null,
+    "plural": null,
+    "arabic": "يتجول في الطبيعة / يتسلق المشي",
+    "type": "verb",
+    "category": "environment",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "wandere",
+      "du": "wanderst",
+      "er": "wandert",
+      "wir": "wandern",
+      "ihr": "wandert",
+      "sie": "wandern"
+    },
+    "tags": [
+      "nature",
+      "outdoors"
+    ]
+  },
+  {
+    "id": "word_1170",
+    "german": "aufwachen",
+    "article": null,
+    "plural": null,
+    "arabic": "يستيقظ من النوم",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "wache auf",
+      "du": "wachst auf",
+      "er": "wacht auf",
+      "wir": "wachen auf",
+      "ihr": "wacht auf",
+      "sie": "wachen auf"
+    },
+    "tags": [
+      "separable",
+      "morning"
+    ]
+  },
+  {
+    "id": "word_1171",
+    "german": "mieten",
+    "article": null,
+    "plural": null,
+    "arabic": "يستأجر (شقة / سيارة)",
+    "type": "verb",
+    "category": "house",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "miete",
+      "du": "mietest",
+      "er": "mietet",
+      "wir": "mieten",
+      "ihr": "mietet",
+      "sie": "mieten"
+    },
+    "tags": [
+      "rental",
+      "housing"
+    ]
+  },
+  {
+    "id": "word_1172",
+    "german": "vermieten",
+    "article": null,
+    "plural": null,
+    "arabic": "يؤجر للآخرين",
+    "type": "verb",
+    "category": "house",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "vermiete",
+      "du": "vermietest",
+      "er": "vermietet",
+      "wir": "vermieten",
+      "ihr": "vermietet",
+      "sie": "vermieten"
+    },
+    "tags": [
+      "rental",
+      "landlord"
+    ]
+  },
+  {
+    "id": "word_1173",
+    "german": "schenken",
+    "article": null,
+    "plural": null,
+    "arabic": "يهدي / يعطي هدية",
+    "type": "verb",
+    "category": "phrases",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "schenke",
+      "du": "schenkst",
+      "er": "schenkt",
+      "wir": "schenken",
+      "ihr": "schenkt",
+      "sie": "schenken"
+    },
+    "tags": [
+      "gift",
+      "dativ"
+    ]
+  },
+  {
+    "id": "word_1174",
+    "german": "leihen",
+    "article": null,
+    "plural": null,
+    "arabic": "يستعير / يقرض",
+    "type": "verb",
+    "category": "phrases",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "leihe",
+      "du": "leihst",
+      "er": "leiht",
+      "wir": "leihen",
+      "ihr": "leiht",
+      "sie": "leihen"
+    },
+    "tags": [
+      "borrow",
+      "lend"
+    ]
+  },
+  {
+    "id": "word_1175",
+    "german": "reparieren",
+    "article": null,
+    "plural": null,
+    "arabic": "يصلح / يعالج عطلاً",
+    "type": "verb",
+    "category": "technology",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "repariere",
+      "du": "reparierst",
+      "er": "repariert",
+      "wir": "reparieren",
+      "ihr": "repariert",
+      "sie": "reparieren"
+    },
+    "tags": [
+      "repair",
+      "technology"
+    ]
+  },
+  {
+    "id": "word_1176",
+    "german": "funktionieren",
+    "article": null,
+    "plural": null,
+    "arabic": "يعمل / يشتغل بنجاح",
+    "type": "verb",
+    "category": "technology",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "funktioniere",
+      "du": "funktionierst",
+      "er": "funktioniert",
+      "wir": "funktionieren",
+      "ihr": "funktioniert",
+      "sie": "funktionieren"
+    },
+    "tags": [
+      "technology",
+      "working"
+    ]
+  },
+  {
+    "id": "word_1177",
+    "german": "passen",
+    "article": null,
+    "plural": null,
+    "arabic": "يناسب / يلائم المقاس أو الوقت",
+    "type": "verb",
+    "category": "clothing",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "passe",
+      "du": "passt",
+      "er": "passt",
+      "wir": "passen",
+      "ihr": "passt",
+      "sie": "passen"
+    },
+    "tags": [
+      "fit",
+      "clothing"
+    ]
+  },
+  {
+    "id": "word_1178",
+    "german": "Keller",
+    "article": "der",
+    "plural": "Keller",
+    "arabic": "القبو / السرداب",
+    "type": "noun",
+    "category": "house",
+    "gender": "masculine",
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "house",
+      "basement"
+    ]
+  },
+  {
+    "id": "word_1179",
+    "german": "Heizung",
+    "article": "die",
+    "plural": "Heizungen",
+    "arabic": "التدفئة / الدفاية",
+    "type": "noun",
+    "category": "house",
+    "gender": "feminine",
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "house",
+      "winter"
+    ]
+  },
+  {
+    "id": "word_1180",
+    "german": "Platz",
+    "article": "der",
+    "plural": "Plätze",
+    "arabic": "ميدان / ساحة / مكان جلوس",
+    "type": "noun",
+    "category": "transport",
+    "gender": "masculine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "city",
+      "location"
+    ]
+  },
+  {
+    "id": "word_1181",
+    "german": "Brücke",
+    "article": "die",
+    "plural": "Brücken",
+    "arabic": "جسر / كوبري",
+    "type": "noun",
+    "category": "transport",
+    "gender": "feminine",
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "city",
+      "bridge"
+    ]
+  },
+  {
+    "id": "word_1182",
+    "german": "Bäckerei",
+    "article": "die",
+    "plural": "Bäckereien",
+    "arabic": "مخبز / فرن الخبز",
+    "type": "noun",
+    "category": "shopping",
+    "gender": "feminine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "city",
+      "bakery",
+      "bread"
+    ]
+  },
+  {
+    "id": "word_1183",
+    "german": "Post",
+    "article": "die",
+    "plural": "Postämter",
+    "arabic": "مكتب البريد",
+    "type": "noun",
+    "category": "city",
+    "gender": "feminine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "city",
+      "mail"
+    ]
+  },
+  {
+    "id": "word_1184",
+    "german": "Fahrplan",
+    "article": "der",
+    "plural": "Fahrpläne",
+    "arabic": "جدول مواعيد الرحلات والمواصلات",
+    "type": "noun",
+    "category": "transport",
+    "gender": "masculine",
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "schedule",
+      "transit"
+    ]
+  },
+  {
+    "id": "word_1185",
+    "german": "Gleis",
+    "article": "das",
+    "plural": "Gleise",
+    "arabic": "رصيف القطار / السكة الحديدية",
+    "type": "noun",
+    "category": "transport",
+    "gender": "neuter",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "train",
+      "station"
+    ]
+  },
+  {
+    "id": "word_1186",
+    "german": "Stau",
+    "article": "der",
+    "plural": "Staus",
+    "arabic": "ازدحام مروري / اختناق السير",
+    "type": "noun",
+    "category": "transport",
+    "gender": "masculine",
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "traffic",
+      "car"
+    ]
+  },
+  {
+    "id": "word_1187",
+    "german": "Anruf",
+    "article": "der",
+    "plural": "Anrufe",
+    "arabic": "مكالمة هاتفية",
+    "type": "noun",
+    "category": "media",
+    "gender": "masculine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "phone",
+      "communication"
+    ]
+  },
+  {
+    "id": "word_1188",
+    "german": "Nachricht",
+    "article": "die",
+    "plural": "Nachrichten",
+    "arabic": "رسالة نصية / الأخبار",
+    "type": "noun",
+    "category": "media",
+    "gender": "feminine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "message",
+      "news"
+    ]
+  },
+  {
+    "id": "word_1189",
+    "german": "Brief",
+    "article": "der",
+    "plural": "Briefe",
+    "arabic": "خطاب / رسالة بريدية ورقية",
+    "type": "noun",
+    "category": "phrases",
+    "gender": "masculine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "mail",
+      "post"
+    ]
+  },
+  {
+    "id": "word_1190",
+    "german": "Kugelschreiber",
+    "article": "der",
+    "plural": "Kugelschreiber",
+    "arabic": "قلم جاف (كولي)",
+    "type": "noun",
+    "category": "university",
+    "gender": "masculine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "writing",
+      "school"
+    ]
+  },
+  {
+    "id": "word_1191",
+    "german": "Fehler",
+    "article": "der",
+    "plural": "Fehler",
+    "arabic": "خطأ / غلطة",
+    "type": "noun",
+    "category": "university",
+    "gender": "masculine",
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "error",
+      "correction"
+    ]
+  },
+  {
+    "id": "word_1192",
+    "german": "lecker",
+    "article": null,
+    "plural": null,
+    "arabic": "لذيذ / شهي المذاق",
+    "type": "adjective",
+    "category": "food",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "taste",
+      "food"
+    ]
+  },
+  {
+    "id": "word_1193",
+    "german": "frisch",
+    "article": null,
+    "plural": null,
+    "arabic": "طازج / نقي / منعش",
+    "type": "adjective",
+    "category": "food",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "quality",
+      "food"
+    ]
+  },
+  {
+    "id": "word_1194",
+    "german": "süß",
+    "article": null,
+    "plural": null,
+    "arabic": "حلو المذاق / لطيف",
+    "type": "adjective",
+    "category": "food",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "taste",
+      "sweet"
+    ]
+  },
+  {
+    "id": "word_1195",
+    "german": "salzig",
+    "article": null,
+    "plural": null,
+    "arabic": "مالح",
+    "type": "adjective",
+    "category": "food",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "taste",
+      "salt"
+    ]
+  },
+  {
+    "id": "word_1196",
+    "german": "sauer",
+    "article": null,
+    "plural": null,
+    "arabic": "حامض (أو غاضب مجازاً)",
+    "type": "adjective",
+    "category": "food",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "taste",
+      "sour"
+    ]
+  },
+  {
+    "id": "word_1197",
+    "german": "scharf",
+    "article": null,
+    "plural": null,
+    "arabic": "حار / لاذع (أو حاد كالسكين)",
+    "type": "adjective",
+    "category": "food",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "taste",
+      "spicy"
+    ]
+  },
+  {
+    "id": "word_1198",
+    "german": "kühl",
+    "article": null,
+    "plural": null,
+    "arabic": "بارد خفيف / منعش",
+    "type": "adjective",
+    "category": "weather",
+    "gender": null,
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "temperature"
+    ]
+  },
+  {
+    "id": "word_1199",
+    "german": "offen",
+    "article": null,
+    "plural": null,
+    "arabic": "مفتوح / منفتح",
+    "type": "adjective",
+    "category": "shopping",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "hours",
+      "state"
+    ]
+  },
+  {
+    "id": "word_1200",
+    "german": "geschlossen",
+    "article": null,
+    "plural": null,
+    "arabic": "مغلق",
+    "type": "adjective",
+    "category": "shopping",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "hours",
+      "state"
+    ]
+  },
+  {
+    "id": "word_1201",
+    "german": "günstig",
+    "article": null,
+    "plural": null,
+    "arabic": "مناسب السعر / ذو قيمة جيدة",
+    "type": "adjective",
+    "category": "shopping",
+    "gender": null,
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "price",
+      "economy"
+    ]
+  },
+  {
+    "id": "word_1202",
+    "german": "einfach",
+    "article": null,
+    "plural": null,
+    "arabic": "بسيط / سهل",
+    "type": "adjective",
+    "category": "adjectives",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "difficulty"
+    ]
+  },
+  {
+    "id": "word_1203",
+    "german": "schwierig",
+    "article": null,
+    "plural": null,
+    "arabic": "صعب / معقد",
+    "type": "adjective",
+    "category": "adjectives",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "difficulty"
+    ]
+  },
+  {
+    "id": "word_1204",
+    "german": "pünktlich",
+    "article": null,
+    "plural": null,
+    "arabic": "دقيق في المواعيد / في وقته تماماً",
+    "type": "adjective",
+    "category": "time",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "time",
+      "punctuality"
+    ]
+  },
+  {
+    "id": "word_1205",
+    "german": "richtig",
+    "article": null,
+    "plural": null,
+    "arabic": "صحيح / صواب",
+    "type": "adjective",
+    "category": "adjectives",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "correctness"
+    ]
+  },
+  {
+    "id": "word_1206",
+    "german": "falsch",
+    "article": null,
+    "plural": null,
+    "arabic": "خاطئ / غير صحيح",
+    "type": "adjective",
+    "category": "adjectives",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "correctness"
+    ]
+  },
+  {
+    "id": "word_1207",
+    "german": "fleißig",
+    "article": null,
+    "plural": null,
+    "arabic": "مجتهد / مثابر في عمله",
+    "type": "adjective",
+    "category": "work",
+    "gender": null,
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "work",
+      "character"
+    ]
+  },
+  {
+    "id": "word_1208",
+    "german": "faul",
+    "article": null,
+    "plural": null,
+    "arabic": "كسول / متعفن (للطعام)",
+    "type": "adjective",
+    "category": "emotions",
+    "gender": null,
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "laziness",
+      "character"
+    ]
+  },
+  {
+    "id": "word_1209",
+    "german": "höflich",
+    "article": null,
+    "plural": null,
+    "arabic": "مهذب / لبق",
+    "type": "adjective",
+    "category": "emotions",
+    "gender": null,
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "politeness",
+      "character"
+    ]
+  },
+  {
+    "id": "word_1210",
+    "german": "freundlich",
+    "article": null,
+    "plural": null,
+    "arabic": "ودود / لطيف المعاملة",
+    "type": "adjective",
+    "category": "emotions",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "friendly",
+      "character"
+    ]
+  },
+  {
+    "id": "word_1211",
+    "german": "übermorgen",
+    "article": null,
+    "plural": null,
+    "arabic": "بعد غد",
+    "type": "adverb",
+    "category": "time",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "time",
+      "future"
+    ]
+  },
+  {
+    "id": "word_1212",
+    "german": "vorgestern",
+    "article": null,
+    "plural": null,
+    "arabic": "أول أمس",
+    "type": "adverb",
+    "category": "time",
+    "gender": null,
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "time",
+      "past"
+    ]
+  },
+  {
+    "id": "word_1213",
+    "german": "jetzt",
+    "article": null,
+    "plural": null,
+    "arabic": "الآن / في هذه اللحظة",
+    "type": "adverb",
+    "category": "time",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "time",
+      "now"
+    ]
+  },
+  {
+    "id": "word_1214",
+    "german": "gleich",
+    "article": null,
+    "plural": null,
+    "arabic": "حالاً / بعد قليل / مساوٍ",
+    "type": "adverb",
+    "category": "time",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "time",
+      "soon"
+    ]
+  },
+  {
+    "id": "word_1215",
+    "german": "bald",
+    "article": null,
+    "plural": null,
+    "arabic": "عما قريب / قريباً",
+    "type": "adverb",
+    "category": "time",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "time",
+      "soon"
+    ]
+  },
+  {
+    "id": "word_1216",
+    "german": "später",
+    "article": null,
+    "plural": null,
+    "arabic": "فيما بعد / لاحقاً",
+    "type": "adverb",
+    "category": "time",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "time",
+      "later"
+    ]
+  },
+  {
+    "id": "word_1217",
+    "german": "immer",
+    "article": null,
+    "plural": null,
+    "arabic": "دائماً",
+    "type": "adverb",
+    "category": "time",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "frequency"
+    ]
+  },
+  {
+    "id": "word_1218",
+    "german": "oft",
+    "article": null,
+    "plural": null,
+    "arabic": "غالباً / كثيراً ما",
+    "type": "adverb",
+    "category": "time",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "frequency"
+    ]
+  },
+  {
+    "id": "word_1219",
+    "german": "manchmal",
+    "article": null,
+    "plural": null,
+    "arabic": "أحياناً / من حين لآخر",
+    "type": "adverb",
+    "category": "time",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "frequency"
+    ]
+  },
+  {
+    "id": "word_1220",
+    "german": "selten",
+    "article": null,
+    "plural": null,
+    "arabic": "نادراً",
+    "type": "adverb",
+    "category": "time",
+    "gender": null,
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "frequency"
+    ]
+  },
+  {
+    "id": "word_1221",
+    "german": "nie",
+    "article": null,
+    "plural": null,
+    "arabic": "أبداً / قط / لا على الإطلاق",
+    "type": "adverb",
+    "category": "time",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "frequency",
+      "negation"
+    ]
+  },
+  {
+    "id": "word_1222",
+    "german": "schon",
+    "article": null,
+    "plural": null,
+    "arabic": "بالفعل / قد سبق",
+    "type": "adverb",
+    "category": "time",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "particle",
+      "time"
+    ]
+  },
+  {
+    "id": "word_1223",
+    "german": "noch",
+    "article": null,
+    "plural": null,
+    "arabic": "ما زال / بعد / أيضاً",
+    "type": "adverb",
+    "category": "time",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "particle",
+      "time"
+    ]
+  },
+  {
+    "id": "word_1224",
+    "german": "fast",
+    "article": null,
+    "plural": null,
+    "arabic": "تقريباً / كاد",
+    "type": "adverb",
+    "category": "adjectives",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "degree"
+    ]
+  },
+  {
+    "id": "word_1225",
+    "german": "wirklich",
+    "article": null,
+    "plural": null,
+    "arabic": "حقاً / فعلاً",
+    "type": "adverb",
+    "category": "phrases",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "certainty"
+    ]
+  },
+  {
+    "id": "word_1226",
+    "german": "natürlich",
+    "article": null,
+    "plural": null,
+    "arabic": "بالتأكيد / طبعاً / طبيعي",
+    "type": "adverb",
+    "category": "phrases",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "agreement"
+    ]
+  },
+  {
+    "id": "word_1227",
+    "german": "leider",
+    "article": null,
+    "plural": null,
+    "arabic": "للأسف / مع الأسف",
+    "type": "adverb",
+    "category": "phrases",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "regret"
+    ]
+  },
+  {
+    "id": "word_1228",
+    "german": "gerne",
+    "article": null,
+    "plural": null,
+    "arabic": "بسرور / بكل محبة",
+    "type": "adverb",
+    "category": "phrases",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preference"
+    ]
+  },
+  {
+    "id": "word_1229",
+    "german": "zusammen",
+    "article": null,
+    "plural": null,
+    "arabic": "معاً / سوياً",
+    "type": "adverb",
+    "category": "phrases",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "social",
+      "together"
+    ]
+  },
+  {
+    "id": "word_1230",
+    "german": "allein",
+    "article": null,
+    "plural": null,
+    "arabic": "بمفرده / لوحده",
+    "type": "adverb",
+    "category": "phrases",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "solo"
+    ]
+  },
+  {
+    "id": "word_1231",
+    "german": "dir",
+    "article": null,
+    "plural": null,
+    "arabic": "لكَ / لكِ (ضمير المخاطب المجرور Dativ)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "pronoun",
+      "dativ",
+      "essential",
+      "grammar"
+    ]
+  },
+  {
+    "id": "word_1232",
+    "german": "mir",
+    "article": null,
+    "plural": null,
+    "arabic": "لي / إليّ (ضمير المتكلم المجرور Dativ)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "pronoun",
+      "dativ",
+      "essential",
+      "grammar"
+    ]
+  },
+  {
+    "id": "word_1233",
+    "german": "ihm",
+    "article": null,
+    "plural": null,
+    "arabic": "له (ضمير الغائب المذكر والمحايد المجرور Dativ)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "pronoun",
+      "dativ",
+      "grammar"
+    ]
+  },
+  {
+    "id": "word_1234",
+    "german": "ihr",
+    "article": null,
+    "plural": null,
+    "arabic": "لها (مجرور Dativ) / أنتم (فاعل) / مِلكها",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "pronoun",
+      "dativ",
+      "grammar"
+    ]
+  },
+  {
+    "id": "word_1235",
+    "german": "uns",
+    "article": null,
+    "plural": null,
+    "arabic": "لنا / إيانا (ضمير نحن في النصب والجر Dativ & Akkusativ)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "pronoun",
+      "dativ",
+      "akkusativ"
+    ]
+  },
+  {
+    "id": "word_1236",
+    "german": "euch",
+    "article": null,
+    "plural": null,
+    "arabic": "لكم / إياكم (ضمير أنتم في النصب والجر Dativ & Akkusativ)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "pronoun",
+      "dativ",
+      "akkusativ"
+    ]
+  },
+  {
+    "id": "word_1237",
+    "german": "ihnen",
+    "article": null,
+    "plural": null,
+    "arabic": "لهم (ضمير هم في الجر Dativ)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "pronoun",
+      "dativ"
+    ]
+  },
+  {
+    "id": "word_1238",
+    "german": "mich",
+    "article": null,
+    "plural": null,
+    "arabic": "إياي / ـني (ضمير المتكلم المنصوب Akkusativ)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "pronoun",
+      "akkusativ",
+      "grammar"
+    ]
+  },
+  {
+    "id": "word_1239",
+    "german": "dich",
+    "article": null,
+    "plural": null,
+    "arabic": "إياكَ / إياكِ / ـكَ (ضمير المخاطب المنصوب Akkusativ)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "pronoun",
+      "akkusativ",
+      "grammar"
+    ]
+  },
+  {
+    "id": "word_1240",
+    "german": "ihn",
+    "article": null,
+    "plural": null,
+    "arabic": "إياه / ـه (ضمير الغائب المذكر المنصوب Akkusativ)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "pronoun",
+      "akkusativ",
+      "grammar"
+    ]
+  },
+  {
+    "id": "word_1241",
+    "german": "mein",
+    "article": null,
+    "plural": null,
+    "arabic": "لي / ياء الملكية (كتابي، بيتي)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "possessive",
+      "grammar"
+    ]
+  },
+  {
+    "id": "word_1242",
+    "german": "dein",
+    "article": null,
+    "plural": null,
+    "arabic": "لكَ / كاف الملكية (كتابُكَ)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "possessive",
+      "grammar"
+    ]
+  },
+  {
+    "id": "word_1243",
+    "german": "unser",
+    "article": null,
+    "plural": null,
+    "arabic": "لنا / نا الفاعلين للملكية (بيتنا)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "possessive",
+      "grammar"
+    ]
+  },
+  {
+    "id": "word_1244",
+    "german": "euer",
+    "article": null,
+    "plural": null,
+    "arabic": "لكم / كاف الملكية للجمع (بيتكم)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "possessive",
+      "grammar"
+    ]
+  },
+  {
+    "id": "word_1245",
+    "german": "wer",
+    "article": null,
+    "plural": null,
+    "arabic": "مَن؟ (للسؤال عن الفاعل العاقل Nominativ)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "question",
+      "w-frage",
+      "grammar"
+    ]
+  },
+  {
+    "id": "word_1246",
+    "german": "wen",
+    "article": null,
+    "plural": null,
+    "arabic": "مَن؟ (للسؤال عن المفعول به العاقل Akkusativ)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "question",
+      "w-frage",
+      "grammar"
+    ]
+  },
+  {
+    "id": "word_1247",
+    "german": "wem",
+    "article": null,
+    "plural": null,
+    "arabic": "لمَن؟ (للسؤال عن المجرور العاقل Dativ)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "question",
+      "w-frage",
+      "grammar"
+    ]
+  },
+  {
+    "id": "word_1248",
+    "german": "was",
+    "article": null,
+    "plural": null,
+    "arabic": "ماذا؟ / ما؟ (لغير العاقل)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "question",
+      "w-frage",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1249",
+    "german": "wo",
+    "article": null,
+    "plural": null,
+    "arabic": "أين؟ (للسؤال عن المكان الثابت)",
+    "type": "adverb",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "question",
+      "w-frage",
+      "location"
+    ]
+  },
+  {
+    "id": "word_1250",
+    "german": "wohin",
+    "article": null,
+    "plural": null,
+    "arabic": "إلى أين؟ (للسؤال عن الاتجاه والوجهة)",
+    "type": "adverb",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "question",
+      "w-frage",
+      "direction"
+    ]
+  },
+  {
+    "id": "word_1251",
+    "german": "woher",
+    "article": null,
+    "plural": null,
+    "arabic": "من أين؟ (للسؤال عن الأصل أو المصدر)",
+    "type": "adverb",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "question",
+      "w-frage",
+      "origin"
+    ]
+  },
+  {
+    "id": "word_1252",
+    "german": "wann",
+    "article": null,
+    "plural": null,
+    "arabic": "متى؟ (للسؤال عن الوقت والزمان)",
+    "type": "adverb",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "question",
+      "w-frage",
+      "time"
+    ]
+  },
+  {
+    "id": "word_1253",
+    "german": "warum",
+    "article": null,
+    "plural": null,
+    "arabic": "لماذا؟ / لِمَ؟ (للسؤال عن السبب)",
+    "type": "adverb",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "question",
+      "w-frage",
+      "reason"
+    ]
+  },
+  {
+    "id": "word_1254",
+    "german": "wieso",
+    "article": null,
+    "plural": null,
+    "arabic": "كيف ذلك؟ / لماذا؟",
+    "type": "adverb",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "question",
+      "w-frage",
+      "reason"
+    ]
+  },
+  {
+    "id": "word_1255",
+    "german": "wie",
+    "article": null,
+    "plural": null,
+    "arabic": "كيف؟ / ما (مثل ما اسمك؟)",
+    "type": "adverb",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "question",
+      "w-frage",
+      "manner"
+    ]
+  },
+  {
+    "id": "word_1256",
+    "german": "wie viel",
+    "article": null,
+    "plural": null,
+    "arabic": "كم؟ (للسؤال عن الكمية أو السعر غير المعدود)",
+    "type": "phrase",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "question",
+      "price",
+      "quantity"
+    ]
+  },
+  {
+    "id": "word_1257",
+    "german": "wie viele",
+    "article": null,
+    "plural": null,
+    "arabic": "كم عدداً؟ (للسؤال عن الأشياء المعدودة)",
+    "type": "phrase",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "question",
+      "count",
+      "quantity"
+    ]
+  },
+  {
+    "id": "word_1258",
+    "german": "welcher",
+    "article": null,
+    "plural": null,
+    "arabic": "أيّ؟ (للمذكر Nominativ)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "question",
+      "grammar"
+    ]
+  },
+  {
+    "id": "word_1259",
+    "german": "welche",
+    "article": null,
+    "plural": null,
+    "arabic": "أيّ؟ (للمؤنث والجمع)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "question",
+      "grammar"
+    ]
+  },
+  {
+    "id": "word_1260",
+    "german": "welches",
+    "article": null,
+    "plural": null,
+    "arabic": "أيّ؟ (للمحايد)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "question",
+      "grammar"
+    ]
+  },
+  {
+    "id": "word_1261",
+    "german": "tun",
+    "article": null,
+    "plural": null,
+    "arabic": "يفعل / يصنع / يعمل",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "tue",
+      "du": "tust",
+      "er": "tut",
+      "wir": "tun",
+      "ihr": "tut",
+      "sie": "tun"
+    },
+    "tags": [
+      "action",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1262",
+    "german": "lassen",
+    "article": null,
+    "plural": null,
+    "arabic": "يدع / يترك / يسمح بـ",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "lasse",
+      "du": "lässt",
+      "er": "lässt",
+      "wir": "lassen",
+      "ihr": "lasst",
+      "sie": "lassen"
+    },
+    "tags": [
+      "action",
+      "modal-like"
+    ]
+  },
+  {
+    "id": "word_1263",
+    "german": "möchten",
+    "article": null,
+    "plural": null,
+    "arabic": "يود / يرغب بتهذيب",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "möchte",
+      "du": "möchtest",
+      "er": "möchte",
+      "wir": "möchten",
+      "ihr": "möchtet",
+      "sie": "möchten"
+    },
+    "tags": [
+      "modal",
+      "politeness",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1264",
+    "german": "tragen",
+    "article": null,
+    "plural": null,
+    "arabic": "يحمل / يرتدي ملابس",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "trage",
+      "du": "trägst",
+      "er": "trägt",
+      "wir": "tragen",
+      "ihr": "tragt",
+      "sie": "tragen"
+    },
+    "tags": [
+      "clothing",
+      "carry"
+    ]
+  },
+  {
+    "id": "word_1265",
+    "german": "bekommen",
+    "article": null,
+    "plural": null,
+    "arabic": "يحصل على / ينال",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "bekomme",
+      "du": "bekommst",
+      "er": "bekommt",
+      "wir": "bekommen",
+      "ihr": "bekommt",
+      "sie": "bekommen"
+    },
+    "tags": [
+      "receive",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1266",
+    "german": "wünschen",
+    "article": null,
+    "plural": null,
+    "arabic": "يتمنى / يرغب",
+    "type": "verb",
+    "category": "emotions",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "wünsche",
+      "du": "wünschst",
+      "er": "wünscht",
+      "wir": "wünschen",
+      "ihr": "wünscht",
+      "sie": "wünschen"
+    },
+    "tags": [
+      "wish",
+      "courtesy"
+    ]
+  },
+  {
+    "id": "word_1267",
+    "german": "Wie geht's?",
+    "article": null,
+    "plural": null,
+    "arabic": "كيف الحال؟ / أخبارك؟ (غير رسمي)",
+    "type": "phrase",
+    "category": "greetings",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "greeting",
+      "daily"
+    ]
+  },
+  {
+    "id": "word_1268",
+    "german": "Mir geht es gut",
+    "article": null,
+    "plural": null,
+    "arabic": "أنا بخير / أموري طيبة",
+    "type": "phrase",
+    "category": "greetings",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "greeting",
+      "response"
+    ]
+  },
+  {
+    "id": "word_1269",
+    "german": "Es geht so",
+    "article": null,
+    "plural": null,
+    "arabic": "يمشي الحال / ليس سيئاً",
+    "type": "phrase",
+    "category": "greetings",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "greeting",
+      "response"
+    ]
+  },
+  {
+    "id": "word_1270",
+    "german": "es gibt",
+    "article": null,
+    "plural": null,
+    "arabic": "يوجد / هناك (+ Akkusativ)",
+    "type": "phrase",
+    "category": "phrases",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "existence",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1271",
+    "german": "Kein Problem",
+    "article": null,
+    "plural": null,
+    "arabic": "لا مشكلة / على الرحب",
+    "type": "phrase",
+    "category": "phrases",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "politeness",
+      "common"
+    ]
+  },
+  {
+    "id": "word_1272",
+    "german": "Gern geschehen",
+    "article": null,
+    "plural": null,
+    "arabic": "عفواً / على الرحب والسعة",
+    "type": "phrase",
+    "category": "phrases",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "gratitude",
+      "reply"
+    ]
+  },
+  {
+    "id": "word_1273",
+    "german": "keine Ahnung",
+    "article": null,
+    "plural": null,
+    "arabic": "لا فكرة لدي / لا أعلم إطلاقاً",
+    "type": "phrase",
+    "category": "phrases",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "speech",
+      "idiom"
+    ]
+  },
+  {
+    "id": "word_1274",
+    "german": "macht nichts",
+    "article": null,
+    "plural": null,
+    "arabic": "لا بأس / لا عليك / ليس مهماً",
+    "type": "phrase",
+    "category": "phrases",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "comfort",
+      "daily"
+    ]
+  },
+  {
+    "id": "word_1275",
+    "german": "auf jeden Fall",
+    "article": null,
+    "plural": null,
+    "arabic": "بكل تأكيد / على أية حال",
+    "type": "phrase",
+    "category": "phrases",
+    "gender": null,
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "certainty",
+      "daily"
+    ]
+  },
+  {
+    "id": "word_1276",
+    "german": "auf keinen Fall",
+    "article": null,
+    "plural": null,
+    "arabic": "مستحيل / غير وارد إطلاقاً",
+    "type": "phrase",
+    "category": "phrases",
+    "gender": null,
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "negation",
+      "emphasis"
+    ]
+  },
+  {
+    "id": "word_1277",
+    "german": "spazierengehen",
+    "article": null,
+    "plural": null,
+    "arabic": "يذهب للتنزه سيراً على الأقدام",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A1",
+    "conjugation": {
+      "ich": "gehe spazieren",
+      "du": "gehst spazieren",
+      "er": "geht spazieren",
+      "wir": "gehen spazieren",
+      "ihr": "geht spazieren",
+      "sie": "gehen spazieren"
+    },
+    "tags": [
+      "leisure",
+      "walking"
+    ]
+  },
+  {
+    "id": "word_1278",
+    "german": "ausgehen",
+    "article": null,
+    "plural": null,
+    "arabic": "يخرج للسهرة / ينطفئ النور",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "gehe aus",
+      "du": "gehst aus",
+      "er": "geht aus",
+      "wir": "gehen aus",
+      "ihr": "geht aus",
+      "sie": "gehen aus"
+    },
+    "tags": [
+      "separable",
+      "social"
+    ]
+  },
+  {
+    "id": "word_1279",
+    "german": "losgehen",
+    "article": null,
+    "plural": null,
+    "arabic": "ينطلق / يبدأ الحدث",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "gehe los",
+      "du": "gehst los",
+      "er": "geht los",
+      "wir": "gehen los",
+      "ihr": "geht los",
+      "sie": "gehen los"
+    },
+    "tags": [
+      "separable",
+      "start"
+    ]
+  },
+  {
+    "id": "word_1280",
+    "german": "weitergehen",
+    "article": null,
+    "plural": null,
+    "arabic": "يواصل السير / يستمر",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "gehe weiter",
+      "du": "gehst weiter",
+      "er": "geht weiter",
+      "wir": "gehen weiter",
+      "ihr": "geht weiter",
+      "sie": "gehen weiter"
+    },
+    "tags": [
+      "separable",
+      "continue"
+    ]
+  },
+  {
+    "id": "word_1281",
+    "german": "zurückgehen",
+    "article": null,
+    "plural": null,
+    "arabic": "يعود أدراجه / يرجع سيراً",
+    "type": "verb",
+    "category": "verbs",
+    "gender": null,
+    "level": "A2",
+    "conjugation": {
+      "ich": "gehe zurück",
+      "du": "gehst zurück",
+      "er": "geht zurück",
+      "wir": "gehen zurück",
+      "ihr": "geht zurück",
+      "sie": "gehen zurück"
+    },
+    "tags": [
+      "separable",
+      "return"
+    ]
+  },
+  {
+    "id": "word_1282",
+    "german": "in",
+    "article": null,
+    "plural": null,
+    "arabic": "في / داخل / إلى داخل المكان",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "location",
+      "two-way"
+    ]
+  },
+  {
+    "id": "word_1283",
+    "german": "an",
+    "article": null,
+    "plural": null,
+    "arabic": "على (رأسياً) / بجانب / عند",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "location",
+      "two-way"
+    ]
+  },
+  {
+    "id": "word_1284",
+    "german": "auf",
+    "article": null,
+    "plural": null,
+    "arabic": "على / فوق (أفقياً مع ملامسة)",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "location",
+      "two-way"
+    ]
+  },
+  {
+    "id": "word_1285",
+    "german": "mit",
+    "article": null,
+    "plural": null,
+    "arabic": "معَ / بواسطة (+ Dativ)",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "dativ",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1286",
+    "german": "nach",
+    "article": null,
+    "plural": null,
+    "arabic": "إلى (للدول والمدن) / بعدَ (+ Dativ)",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "dativ",
+      "direction"
+    ]
+  },
+  {
+    "id": "word_1287",
+    "german": "zu",
+    "article": null,
+    "plural": null,
+    "arabic": "إلى (للأشخاص والأماكن المحددة) / مغلق (+ Dativ)",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "dativ",
+      "direction"
+    ]
+  },
+  {
+    "id": "word_1288",
+    "german": "von",
+    "article": null,
+    "plural": null,
+    "arabic": "مِن / عن / للملكية (+ Dativ)",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "dativ",
+      "origin"
+    ]
+  },
+  {
+    "id": "word_1289",
+    "german": "aus",
+    "article": null,
+    "plural": null,
+    "arabic": "مِن (داخل مكان / أصل البلد) (+ Dativ)",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "dativ",
+      "origin"
+    ]
+  },
+  {
+    "id": "word_1290",
+    "german": "bei",
+    "article": null,
+    "plural": null,
+    "arabic": "عندَ / لدى / أثناء العمل (+ Dativ)",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "dativ",
+      "location"
+    ]
+  },
+  {
+    "id": "word_1291",
+    "german": "seit",
+    "article": null,
+    "plural": null,
+    "arabic": "منذُ (+ Dativ)",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "dativ",
+      "time"
+    ]
+  },
+  {
+    "id": "word_1292",
+    "german": "für",
+    "article": null,
+    "plural": null,
+    "arabic": "لأجل / مِن أجل / لِمدة (+ Akkusativ)",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "akkusativ",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1293",
+    "german": "ohne",
+    "article": null,
+    "plural": null,
+    "arabic": "بدون / من غير (+ Akkusativ)",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "akkusativ"
+    ]
+  },
+  {
+    "id": "word_1294",
+    "german": "um",
+    "article": null,
+    "plural": null,
+    "arabic": "حولَ / في تمام (الساعة) (+ Akkusativ)",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "akkusativ",
+      "time"
+    ]
+  },
+  {
+    "id": "word_1295",
+    "german": "durch",
+    "article": null,
+    "plural": null,
+    "arabic": "خلال / عبْر (+ Akkusativ)",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "akkusativ"
+    ]
+  },
+  {
+    "id": "word_1296",
+    "german": "gegen",
+    "article": null,
+    "plural": null,
+    "arabic": "ضد / نحو / حوالي (+ Akkusativ)",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "akkusativ"
+    ]
+  },
+  {
+    "id": "word_1297",
+    "german": "vor",
+    "article": null,
+    "plural": null,
+    "arabic": "أمامَ / قبلَ",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "two-way",
+      "time"
+    ]
+  },
+  {
+    "id": "word_1298",
+    "german": "hinter",
+    "article": null,
+    "plural": null,
+    "arabic": "خلفَ / وراءَ",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "two-way"
+    ]
+  },
+  {
+    "id": "word_1299",
+    "german": "über",
+    "article": null,
+    "plural": null,
+    "arabic": "فوقَ (بدون ملامسة) / عن موضوع",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "two-way"
+    ]
+  },
+  {
+    "id": "word_1300",
+    "german": "unter",
+    "article": null,
+    "plural": null,
+    "arabic": "تحتَ / أسفلَ",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "two-way"
+    ]
+  },
+  {
+    "id": "word_1301",
+    "german": "neben",
+    "article": null,
+    "plural": null,
+    "arabic": "بجانب / بجوار",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "two-way"
+    ]
+  },
+  {
+    "id": "word_1302",
+    "german": "zwischen",
+    "article": null,
+    "plural": null,
+    "arabic": "بينَ (شيئين أو شخصين)",
+    "type": "preposition",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "preposition",
+      "two-way"
+    ]
+  },
+  {
+    "id": "word_1303",
+    "german": "und",
+    "article": null,
+    "plural": null,
+    "arabic": "وَ (حرف عطف)",
+    "type": "conjunction",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "conjunction",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1304",
+    "german": "oder",
+    "article": null,
+    "plural": null,
+    "arabic": "أوْ (للتخيير)",
+    "type": "conjunction",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "conjunction",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1305",
+    "german": "aber",
+    "article": null,
+    "plural": null,
+    "arabic": "لكنْ / غير أن",
+    "type": "conjunction",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "conjunction",
+      "contrast"
+    ]
+  },
+  {
+    "id": "word_1306",
+    "german": "denn",
+    "article": null,
+    "plural": null,
+    "arabic": "لأنّ (بدون تغيير في ترتيب الكلمات)",
+    "type": "conjunction",
+    "category": "connectors",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "conjunction",
+      "reason"
+    ]
+  },
+  {
+    "id": "word_1307",
+    "german": "dass",
+    "article": null,
+    "plural": null,
+    "arabic": "أنّ (جملة جانبية مع فعل بالنهاية)",
+    "type": "conjunction",
+    "category": "connectors",
+    "gender": null,
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "conjunction",
+      "nebensatz"
+    ]
+  },
+  {
+    "id": "word_1308",
+    "german": "wenn",
+    "article": null,
+    "plural": null,
+    "arabic": "إذا / لو / عندما (شرط أو تكرار)",
+    "type": "conjunction",
+    "category": "connectors",
+    "gender": null,
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "conjunction",
+      "condition"
+    ]
+  },
+  {
+    "id": "word_1309",
+    "german": "ob",
+    "article": null,
+    "plural": null,
+    "arabic": "فيما إذا / هل (في السؤال غير المباشر)",
+    "type": "conjunction",
+    "category": "connectors",
+    "gender": null,
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "conjunction",
+      "nebensatz"
+    ]
+  },
+  {
+    "id": "word_1310",
+    "german": "doch",
+    "article": null,
+    "plural": null,
+    "arabic": "بلى! (للرد بالإيجاب على سؤال منفي أو للتوكيد)",
+    "type": "adverb",
+    "category": "phrases",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "particle",
+      "emphasis",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1311",
+    "german": "sehr",
+    "article": null,
+    "plural": null,
+    "arabic": "جداً / كثيراً",
+    "type": "adverb",
+    "category": "adjectives",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "degree",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1312",
+    "german": "viel",
+    "article": null,
+    "plural": null,
+    "arabic": "كثير / كمية وفيرة",
+    "type": "adverb",
+    "category": "adjectives",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "quantity",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1313",
+    "german": "wenig",
+    "article": null,
+    "plural": null,
+    "arabic": "قليل / كمية ضئيلة",
+    "type": "adverb",
+    "category": "adjectives",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "quantity",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1314",
+    "german": "mehr",
+    "article": null,
+    "plural": null,
+    "arabic": "أكثر / زيادة",
+    "type": "adverb",
+    "category": "adjectives",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "comparative",
+      "quantity"
+    ]
+  },
+  {
+    "id": "word_1315",
+    "german": "hier",
+    "article": null,
+    "plural": null,
+    "arabic": "هنا (في هذا المكان القريب)",
+    "type": "adverb",
+    "category": "adjectives",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "location",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1316",
+    "german": "dort",
+    "article": null,
+    "plural": null,
+    "arabic": "هناك (في ذلك المكان البعيد)",
+    "type": "adverb",
+    "category": "adjectives",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "location",
+      "essential"
+    ]
+  },
+  {
+    "id": "word_1317",
+    "german": "links",
+    "article": null,
+    "plural": null,
+    "arabic": "إلى اليسار / يساراً",
+    "type": "adverb",
+    "category": "transport",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "direction",
+      "orientation"
+    ]
+  },
+  {
+    "id": "word_1318",
+    "german": "rechts",
+    "article": null,
+    "plural": null,
+    "arabic": "إلى اليمين / يميناً",
+    "type": "adverb",
+    "category": "transport",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "direction",
+      "orientation"
+    ]
+  },
+  {
+    "id": "word_1319",
+    "german": "geradeaus",
+    "article": null,
+    "plural": null,
+    "arabic": "إلى الأمام مباشرة / على طول",
+    "type": "adverb",
+    "category": "transport",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "direction",
+      "orientation"
+    ]
+  },
+  {
+    "id": "word_1320",
+    "german": "oben",
+    "article": null,
+    "plural": null,
+    "arabic": "في الأعلى / فوق",
+    "type": "adverb",
+    "category": "house",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "position",
+      "location"
+    ]
+  },
+  {
+    "id": "word_1321",
+    "german": "unten",
+    "article": null,
+    "plural": null,
+    "arabic": "في الأسفل / تحت",
+    "type": "adverb",
+    "category": "house",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "position",
+      "location"
+    ]
+  },
+  {
+    "id": "word_1322",
+    "german": "vorne",
+    "article": null,
+    "plural": null,
+    "arabic": "في الأمام",
+    "type": "adverb",
+    "category": "house",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "position",
+      "location"
+    ]
+  },
+  {
+    "id": "word_1323",
+    "german": "hinten",
+    "article": null,
+    "plural": null,
+    "arabic": "في الخلف / وراء",
+    "type": "adverb",
+    "category": "house",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "position",
+      "location"
+    ]
+  },
+  {
+    "id": "word_1324",
+    "german": "etwas",
+    "article": null,
+    "plural": null,
+    "arabic": "شيء ما / قليلاً (ein bisschen)",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "pronoun",
+      "quantity"
+    ]
+  },
+  {
+    "id": "word_1325",
+    "german": "nichts",
+    "article": null,
+    "plural": null,
+    "arabic": "لا شيء / والعدم",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "negation",
+      "pronoun"
+    ]
+  },
+  {
+    "id": "word_1326",
+    "german": "alles",
+    "article": null,
+    "plural": null,
+    "arabic": "كل شيء / الجميع",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A1",
+    "conjugation": null,
+    "tags": [
+      "totality",
+      "pronoun"
+    ]
+  },
+  {
+    "id": "word_1327",
+    "german": "jemand",
+    "article": null,
+    "plural": null,
+    "arabic": "شخصٌ ما / أحدٌ ما",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "person",
+      "indefinite"
+    ]
+  },
+  {
+    "id": "word_1328",
+    "german": "niemand",
+    "article": null,
+    "plural": null,
+    "arabic": "لا أحد / ما من أحد",
+    "type": "pronoun",
+    "category": "pronouns",
+    "gender": null,
+    "level": "A2",
+    "conjugation": null,
+    "tags": [
+      "person",
+      "negation"
+    ]
   }
 ];
