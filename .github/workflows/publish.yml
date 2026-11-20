@@ -1,0 +1,33 @@
+name: Deploy Static Site to MonsterASP.NET
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare static site files
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path .\publish | Out-Null
+          Copy-Item -Path .\index.html -Destination .\publish\
+          Copy-Item -Path .\css -Destination .\publish\css -Recurse
+          Copy-Item -Path .\js -Destination .\publish\js -Recurse
+          Copy-Item -Path .\data -Destination .\publish\data -Recurse
+
+      - name: Deploy to MonsterASP.NET via WebDeploy
+        uses: rasmusbuchholdt/simply-web-deploy@2.1.0
+        with:
+          website-name: ${{ secrets.WEBSITE_NAME }}
+          server-computer-name: ${{ secrets.SERVER_COMPUTER_NAME }}
+          server-username: ${{ secrets.SERVER_USERNAME }}
+          server-password: ${{ secrets.SERVER_PASSWORD }}
+          source-path: '\publish\'
+          target-path: '\'
